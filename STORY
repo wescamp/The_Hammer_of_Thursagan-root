@@ -96,7 +96,7 @@ Dwarvish Annalist:
     They are few in number, and their very existence is not generally known
     to the other peoples of the Great Continent.  To the abilities of thew
     Witness they add, through the study of herb and mineral lore, the
-    ability to cure.
+    ability to cure poison.
 
     HP: 40 
     Moves: 5
@@ -458,7 +458,7 @@ Law; speak your name and give up your murder, or the Law will cast you
 forth.  I am a witness!
 
 Masked Leader: If you were a witness of the true people, you would 
-not let a human hide behind your robes.  I deny you!
+not let a dirtgrubber hide behind your robes.  I deny you!
 
 Aiglondur: Up axes!
 
@@ -507,7 +507,7 @@ road through to Kal Kartha.
 
 Elurinde: We allow few outsiders in our forest paths, and no dwarves
 since the masked ones began to trouble our eastern margins.  No
-axe-bearers shall come hear our trees.  Return whence you came!
+axe-bearers shall come near our trees.  Return whence you came!
 
 Aiglondur: No. We have our duty.  We must pass.
 
@@ -621,8 +621,8 @@ terribly wounded in an orcish attack.  Disfigured.
 Angarthing: But the Law must see.  A dwarf must put his name 
 and his face behind his deeds. I am a witness.
 
-Karrag: Impertinent fool!  It is not for you to dictate to a lord 
-in his own holding, much less one who holds the soul of the dwarves
+Karrag: Impertinent fool!  It is not for you to dictate to a lord in
+his own holding, much less one who holds the very soul of the dwarves
 in his hand.
 
 Angarthing: The Law speaks.  Against him with the eyes to see,
