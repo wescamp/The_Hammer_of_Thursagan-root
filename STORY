@@ -232,7 +232,9 @@ an orc.  To the Dark Gods with you and your precious "Alliance".
 Angarthing: Now that is a sight still strange to my eyes - an orc
 fighting for the Northern Alliance.  
 
-Aiglondur: Aye.  Not so strange to see humans raiding us, worse luck.
+Aiglondur: Aye.  I'm surprised myself that so many of the orcish
+tribes came over to the Alliance. Not so strange to see humans
+raiding us, worse luck.
 
 Marth Tak: You, on the road! Are you of the Northern Alliance or not?
 
@@ -388,7 +390,9 @@ Aiglondur:  A delegation of the Northern Alliance, traveling east.
 We found a friend of yours in the High Pass.
 
 Perrin: Well met, then.  But if you intend to travel east of here,
-beware of the nest of drakes at the valley's end.
+beware of the nest of drakes in the cliffs near the valley's end.
+They were here before us, and have become more hostile to
+travelers of late.
 
 Glashal: The axe-bearers must not be let near our nestlings.  Attack!
 
@@ -501,9 +505,9 @@ Elurinde: Who disturbs our forest?
 Angarthing: A delegation of the Northern Alliance, seeking the
 road through to Kal Kartha.
 
-Elurinde: We allow few outsiders in our forest paths, and no
-dwarves.  No axe-bearers shall come hear our trees.  Return
-whence you came!
+Elurinde: We allow few outsiders in our forest paths, and no dwarves
+since the masked ones began to trouble our eastern margins.  No
+axe-bearers shall come hear our trees.  Return whence you came!
 
 Aiglondur: No. We have our duty.  We must pass.
 
@@ -656,11 +660,6 @@ Dulcatulos becomes part of the player's side.
 This scenario should be a big, elaborate dungeon crawl in the style of NR::
 Clearing The Mines, with lots of undead enemies and a long turn limit.
 Because Dulcatulos is with the player, the layout starts known but fogged.
-
-At start of each turn, we should hear a death sound and see this
-dialog:
-
-Karrag:  One more, sacrificed.
 
 On victory:
 
