@@ -76,7 +76,7 @@ Dwarvish Witness:
     Required XP: 32
 
     Attacks: 
-       staff, impact 5-2, melee
+       flail, impact 5-2, melee
        bolas, impact, 6-1, slows
 
     Abilities: Leadership 2.
