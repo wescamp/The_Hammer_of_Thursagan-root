@@ -49,8 +49,8 @@ Scenario 2: Reclaiming The Past
 This is a story-only scene to take place in Lord Hamel's throne room.  
 This is the same Hamel as in Northern Rebirth.
 
-Hamel: Aiglondur, what you ha' found is disturbing, for all it's 
-a small thing.  I make known to you Angarthing, loremaster in training,
+Hamel: Aiglondur, what ye ha' found is disturbing, for all it's 
+a small thing.  I make known to ye Angarthing, loremaster in training,
 who recognized the mark on it.
 
 Angarthing is a Dwarvish Witness.  This is the first level of a new
@@ -161,10 +161,11 @@ Aiglondur: But if the dwarves of Kal Kartha have held it all this
 time, why has none wielded it since Thursagan?
 
 Hamel: Because when the Hammer was lost in the Caverns of Flame, all
-the runesmiths then living -- all those who had grasped the Hammer and
-sworn to the craft -- died o' shock at the same moment as Thursagan.
-Their craft secrets died with them.  That is why there are nae runesmiths
-among the Dwarves today, and sorely we miss them.
+the runesmiths then living -- all those who had sworn to the craft and
+bound themselves to the power o' the Hammer -- died o' shock at the
+same moment as Thursagan.  Their craft secrets died with them.  That
+is why there are nae runesmiths among the Dwarves today, and sorely we
+miss them.
 
 Angarthing: That is what is said, my lord Hamel, and it is true.
 Except this; the guild of loremasters has given me leave to reveal
@@ -173,11 +174,11 @@ believed.
 
 Hamel: What is this ye say?  Nae lost?
 
-Angarthing: Aye.  Ye recall mind that in repairing the western galleries
+Angarthing: Aye.  Ye'll recall that in repairing the western galleries
 we cleared a small cave-in hard by where Thursagan himself once had a workshop
 here, before he left to study in solitude in the further North.
 
-Hamel: And you found something?
+Hamel: And ye found something?
 
 Angarthing: A book.  Thursagan's book, in a secret and locked
 compartment he must have dug from the living rock himself by unaided
