@@ -219,7 +219,7 @@ Aiglondur: Aye, my Lord Hamel.
 Angarthing: Thank you, my Lord Hamel.
 
 Aiglondur: We must make haste; winter approaches, and travel over 
-the mountains will grow dangerous.
+the mountains will soon grow dangerous.
 
 Scenario 3:  Strange Allies
 
@@ -707,7 +707,7 @@ exchanged messages with certain orcish chieftains within the Alliance, and
 your victory prevented a dangerous revolt.
 
 Pelias: Aiglondur, the Protector dubs you a Lord Companion of the Alliance.
-He bids you return to Knalga for your investiture.
+He bids you return to Knalga as soon as convenient, for your investiture.
 
 Dulcatulos: (wonderingly) A Lord Companion?  And kin of ours...
 
@@ -720,9 +720,7 @@ dawning hope.
 Angarthing: It would be fitting.  The Loremasters will approve.
 
 Aiglondur: Pelias, my thanks to the Lord Protector; I will attend
-him in the Spring.  But it seems that I have some work to do here first.
-
-
+him in the spring.  But it seems that I have some work to do here first.
 
 ---------------------------------------------------------------------------
 
