@@ -212,11 +212,14 @@ Aiglondur: Your great-nephew, my lord.
 Hamel: Ye're young and not tested...but ye have the rank, and ye've
 shown the wits to use it.  I have decided.  You and Angarthing will
 fare to Kal Kartha together, as soon as may be, with the best men of
-your guard.
+your guard. 
 
 Aiglondur: Aye, my Lord Hamel.
 
 Angarthing: Thank you, my Lord Hamel.
+
+Aiglondur: We must make haste; winter approaches, and travel over 
+the mountains will grow dangerous.
 
 Scenario 3:  Strange Allies
 
@@ -580,7 +583,8 @@ This scenario will take place on a throneroom map which is, effectively,
 all castle.  It should have two keep hexes on it, one near the front
 for our heroes and one at the rear for Karrag. Features of the
 map must include an indication of a doorway in the cave wall near the 
-rear dais.
+rear dais.  The throneroom map should in general look like a near 
+mirror image of Hamel's, but with the braziers unlit.
 
 Aiglondur, Angarthing, and a few of their veteran followers face Karrag,
 flanked by several of his followers.  Dulcatulos escorts our heroes.
@@ -657,17 +661,69 @@ his foul spell.
 
 Scenario 12: The Underlevels
 
-Dulcatulos becomes part of the player's side.
+Dulcatulos becomes part of the player's side.  He is a hero;  he will
+be required for the Epilog.
 
 This scenario should be a big, elaborate dungeon crawl in the style of NR::
 Clearing The Mines, with lots of undead enemies and a long turn limit.
 Because Dulcatulos is with the player, the layout starts known but fogged.
+
+Every few turns (interval depending on the scenario length) there should
+be a crunching sound, a death cry, and a popup from Karrag announcing
+that the Hammer has smashed the skull of another dirtgrubber.
 
 On victory:
 
 Karrag: No!  No!  Dirtgrubbers must die!  The true people must rule all!
 
 Aiglondur:  The 'true people' speak through our axes.  Die, foul lich.
+
+Scenario 13: Epilog
+
+Back to Karrag's throne room.  A throng of Kal Kartha's survivors and
+Aiglondur's troops have gathered there.  The braziers are lit.
+
+Angarthing: Dwarves of Kal Kartha, I speak the Law.  Your house is cast down; 
+you have harbored a great evil.  Who now will take the burden of cleansing
+this holding of its taint?
+
+Narrator: The dwarves of Kal Kartha muttered among themselves and looked at 
+one another uneasily.  None stepped forward.
+
+Dulcatulos: Loremaster...none of us is fit to take up the lordship.  Karrag 
+fooled us all, made us the tools of his foul scheme.
+
+A lancer, named Pelias, fake-moves into the throne-room.
+
+Pelias: I was told I'd find Aiglondur of Knalga here.  I bear a
+message from Tallin, the Lord Protector of the Alliance.
+
+Aiglondur: I am he. Speak your meesage.
+
+Pelias: I have been on your track for weeks.  Word of your rout of
+Tan-Malgar and his allies spread, and reached Tallin.  You did the
+Alliance better service than you knew that day; Tan-Malgar had
+exchanged messages with certain orcish chieftains within the Alliance, and
+your victory prevented a dangerous revolt.
+
+Pelias: Aiglondur, the Protector dubs you a Lord Companion of the Alliance.
+He bids you return to Knalga for your investiture.
+
+Dulcatulos: (wonderingly) A Lord Companion?  And kin of ours...
+
+Some random Kal Karthan:  It would be no shame for a Lord Companion
+to rule this holding, as Hamel does at Knalga.
+
+Narrator: The Kal Karthans looked at each other, and Aiglondur, with
+dawning hope.
+
+Angarthing: It would be fitting.  The Loremasters will approve.
+
+Aiglondur: Pelias, my thanks to the Lord Protector; I will attend
+him in the Spring.  But it seems that I have some work to do here first.
+
+
+
 ---------------------------------------------------------------------------
 
 Art requirements:  We'll need images and animation frames for
