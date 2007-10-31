@@ -231,7 +231,7 @@ Gothras: We will fare where we will and take what we will, dog of
 an orc.  To the Dark Gods with you and your precious "Alliance".
 
 Angarthing: Now that is a sight still strange to my eyes - an orc
-fighting for the Northern Alliance.  
+fighting for the Northern Alliance.
 
 Aiglondur: Aye.  I'm surprised myself that so many of the orcish
 tribes came over to the Alliance. Not so strange to see humans
@@ -247,11 +247,12 @@ Angarthing: That is our duty.
 
 Aiglondur: For the Alliance!  Axes up!
 
-This is a three-sided battle, player controlling Aiglondur's and Marth
-Tak's troups.  The opponent, Gothras, leads a large force of chaotic
-humans.  This should be a medium-sized but serious fight.  The only terrain
-feature fixed by storyline is a west-to-east road;  player's troops
-should start near its west end, enemy near the east.
+Player controls Aiglondur's troops with Marth Tak's as allies; the
+stinger is that if Marth Tak dies, you lose. The opponent, Gothras,
+leads a large force of chaotic humans.  This should be a medium-sized
+but serious fight.  The only terrain feature fixed by storyline is a
+west-to-east road; player's troops should start near its west end,
+enemy near the east.
 
 Alternate possibility: This scenario might be a branch point for the
 campaign, with the player getting a choice of who to side with and
