@@ -89,6 +89,23 @@ Your storyboard should be a support, not a straightjacket; its function
 is to help you focus on storyline composition without being distracted
 by WML and implementation details.
 
+You don't even necessarily have to write out every single line of
+dialog in your storyboard drafts.  I like to do that, but "The
+captain and the mage discuss how difficult the upcoming battle will
+be" is probably good enough for a first pass.
+
+One last note about storyboarding: pick a reasonable campaign length
+(count of scenarios) and stick with it.  We've found by experience
+that 10-12 is a good medium length, 16-18 is long, and over that is
+epic and nearly unmanageable.  It's difficult to sustain interest over
+16 scenarios. If you find yourself plotting a 25-scenario storyboard,
+beware lest your stamina fail to match your ambition.
+
+Thursagan's Hammer is 13 scenarios; of those, scenarios 2 and 13 are
+talk only, I chose that length carefully after having studied the
+mainline WML and noticing that 11 "real" battle scenarios seems to be
+a sweet spot; you should choose yours just as carefully.
+
 2. Tips for good storyline writing
 
 A good storyline is not just a series of incidents hanging in the
@@ -147,7 +164,7 @@ Don't go overboard with character development. A lot of writers have
 been taught to believe that stories stand or fall on the quality of
 their characterization.  This ain't necessarily so even in general,
 and in the very tight constraints of Battle For Wesnoth storylines,
-it can lead you into overwiting.
+it can lead you into overwriting.
 
 Even a hundred words of dialogue is pretty talky in a BfW scenario, and
 you have to budget a lot of that for plot.  You can't afford to spend
@@ -172,12 +189,16 @@ much there to finish the story.
 
 Long campaigns may actually have two or even three story arcs in
 sequence, all fitting into a single over-arc in which earlier
-sub-stories build up tension for the final resolution.  For example,
-in The Rise of Wesnoth (a *very* well-written campaign that repays
-careful study) there are three story arcs.  One finishes with
-Haldric's departure from the Green Isle, the second finishes when
-Haldric sits down to negotiatiate with the elves of the Great
-Continent, and the third one climaxes with the final battle
+sub-stories build up tension for the final resolution.  Each such arc
+should finish we the achievement of some kind of marked goal, and give
+the player a sense of relaxation and accomplishment.
+
+For example, in The Rise of Wesnoth (a *very* well-written campaign
+that repays careful study) there are three story arcs.  One finishes
+with Haldric's departure from the Green Isle, the second finishes when
+Haldric sits down to negotiate with the elves of the Great Continent,
+and the third one climaxes with the final battle against the lich-lord
+Jevyan.
 
 Another important rhythm is this: as you build up tension, alternate 
 easy with hard scenarios.  This makes good story -- Tolkien relied
@@ -193,7 +214,117 @@ adjacent and get a good clue about something that might need fixing.
 
 4. Writing with Flavor
 
-[ADD MORE HERE]
+Now I'm going to talk about prose and style.  I'm aware that unless you're
+already a fairly good writer, the advice I'm about to give will be
+about the most difficult part of this how-to to apply.  But even
+if you don't consider yourself a good writer, read it and let it
+sink in; you may well surprise yourself later.
+
+BfW is a fantasy game.  Your storyline will work best (be most
+accessible to the player, have the most interesting atmosphere) if
+your player finds your prose similar to the experience of reading a
+well-written modern fantasy novel of the epic type -- that is, not 
+urban fantasy or horror, but part of the epic tradition largely
+derived from J.R.R. Tolkien and a few other lesser-known writers
+(James Branch Cabell, Lord Dunsany, E.R. Eddison, etc.).
+
+Therefore, you need to know about the conventions for how fantasy
+prose should sound.  If you are an *extremely* good writer (like, say,
+the author of "The Rise of Wesnoth"), you can play directly against
+these conventions.  Very few people are that good; the rest of us
+(including me) are better off following them as carefully as we can.
+
+First rule: Crib shamelessly. Remember that when writing for Wesnoth,
+you are not trying for a literature prize.  Lifting ideas and imagery
+from Tolkien and other great fantasy authors is just fine, usually
+much more appropriate than trying to pull the player into a private
+artistic world of your own.
+
+Here's an example.  I wrote the description of Mal-Ravanal's death 
+at the beginnning of the Epilog to Eastern Invasion.  Here it is:
+
+   When Mal-Ravanal fell, the living creatures under his banner broke
+   and fled; the undead simply collapsed like puppets with their
+   strings cut. As the lich's death-scream echoed in the air, a vast
+   and louring column of shadow arose from his corpse like smoke from
+   an unclean fire; then it divided fivefold at its height, reaching
+   for the heavens like a clutching hand.
+ 
+   Men let weapons fall from nerveless fingers and horses reared in
+   terror as that great dark pall obscured the sun...
+
+   ...and then it thinned, and paled, and a breeze from the west
+   dissolved it in tatters, and the light of day shone once again
+   undiminished on Weldyn.
+
+I lifted this quite consciously from J.R. R. Tolkien's description of the
+passing of Sauron in The Return of the King:
+
+    ...black against the pall of cloud, there rose a huge shape of shadow,
+    impenetrable, lightning-crowned, filling all the sky.  Enormous it
+    reared above the world, and stretched out towards them a vast
+    threatening hand, terrible but impotent; for even as it leaned over
+    them, a great wind took it, and it was all blown away, and passed; and
+    then a hush fell.
+
+Remember, some cliches are cliches because they *work*.  Go and do
+likewise whenever appropriate.
+
+Second rule: Fantasy characters don't use modern slang or speech
+rhythm.  You should write in careful, formal English.  If it's
+possible for you, imitate the longer sentences and more rounded,
+relaxed rhythms of late-19th and early 20th-century English as written
+by an Oxford don (this was Tolkien's dialect).
+
+Third rule: Use archaic and poetic forms -- carefully.  For example,
+"I fear that..."  is better than "I'm afraid that..."  I have Ratheln
+saying "Hail" rather than "Hello" for a reason; it creates a sense of
+some strangeness appropriate for a fantasy milieu.  
+
+Sparing use of poetic and dialect words is good.  For example, in
+one of THOT's scenarios there's a line like this:
+
+   Scout: Nae sign o' bandits I can see, captain -- but there are three 
+   muckle hosts of orcs off to our east.
+
+Many of your readers won't know that "muckle" is a Scots-dialect (and
+archaic English) word meaning "a large amount" or "great".  But a few
+will, and a few more will guess the meaning correctly.  For those
+who don't, the presence of a word they don't know will be a bracing
+little hint of the strange -- as long as (and this is important!)
+the sentence *remains comprehensible without it*.
+
+Don't go overboard, though.  Going all Shakespearian with prithees and
+sirrahs and thou arts isn't necessary and would just distract your
+players.  Use your archaisms like spices in cooking; to add flavor,
+not to overwhelm.
+
+That last example sentence illustrates a related tool: Yon dwarf has
+an accent.  In this case, specifically, a Scots one.  I've made a
+point of giving some of the dwarves in the campaigns I write or adapt
+that accent.  The degree varies: Lord Hamel (in Northern Rebirth and
+THoT) has a heavy accent, Aiglondur a light-to-nonexistent one.  But 
+it differentiates them from humans in a useful and interesting way.
+
+(For non-English speakers: In English-language folklore, the Scottish
+share many characteristics with fantasy dwarves.  Both are tough,
+dour, canny mountain folk who are good at engineering and hold grudges
+forever; the similarity even makes sense to a Scot.  This is why a
+Scots accent "feels right" for a dwarf.)
+
+If you have the skill for it, give your characters accents -- or,
+at least, distinguishable speech patterns.  Elves should sound
+poetic and hyper-correct, orcs should sound brutal and angry, trolls
+and ogres should sound stupid.
+
+Fourth rule: Change register appropriately.
+
+All the tricks I've been talking about (cribbing from authors, formal
+English, poetic and dialect words, accents) become more appropriate
+and more important in climax scenes than they are in ordinary
+narration.  At times of great intensity, shift your prose a bit away
+from colloquial modern English -- make it more formal, more
+fantasy-tinged, more *powerful*.
 
 5.  Maps and Battles
 
@@ -205,3 +336,47 @@ One of the problems Wesnoth campaign designers have to deal with
 is controlling gold accumulation.  
 
 [ADD MORE HERE]
+
+To Do:
+
+Mention branching...
+
+Notes from IRC
+
+Zookeeper says: never change objectives mid-scenario if it's
+reasonably possible that the player cannot fulfill them if he didn't
+pre-plan for that. never rely on an AI ally to be able to accomplish
+anything. never make nasty surprise moveto traps.
+
+never make it reasonably possible for someone playing the scenario for
+the first time to lose due to anything but his own mistakes
+
+if one needs to put surprises, like sudden moveto traps or such, it's
+easy enough to give clear hints about them in dialogue or such
+
+Test your campaign on "Normal".
+
+a campaign should aim to allow a skilled player to have a chance of
+finishing it on the first play through with no restarts, if they do
+well.
+
+Sirp> esr: btw I do think there is actually a slight danger with
+writing the storyline first of ending up with a huge storyline that
+calls for an epic campaign and then finding that actually making and
+playtesting the scenarios is far too much work.
+
+zookeeper> the greatest regular annoyances in campaigns for me are
+when the objectives change mid-scenario and i can no longer fulfill
+them (take hero to x,y, and i have him on the other side of the map)
+or when there's a sudden ambush in the middle of nowhere around an
+import
+
+Sirp> I think that if the objectives change mid-scenario it should
+either (1) not be too much of a difficult change strategically
+(perhaps as well as an extra difficulty the player also gets
+assistance from somewhere); or (2) the potential for the change should
+be strongly hinted at to give an observant player the opportunity to
+plan.
+
+<zookeeper> also, you can increase the turn limit mid-scenario, which
+would be a good thing to do in those cases
