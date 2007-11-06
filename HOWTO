@@ -209,7 +209,7 @@ Jevyan.
 Another important rhythm is this: as you build up tension, alternate 
 easy with hard scenarios.  This makes good story -- Tolkien relied
 on it heavily in plotting Lord of the Rings -- but there is a specific
-tecnical reason to do it in Wesnoth: gold control.  We'll talk about
+technical reason to do it in Wesnoth: gold control.  We'll talk about
 this more when we describe balancing techniques.
 
 When you write your storyboard, it's a good idea to note which
@@ -402,9 +402,9 @@ that each side is using the right countertactics against the other.
 Your chances running (say) an equal-cost army of dwarves againt
 saurians may be 50/50 in the large, but if you don't pull your dwarves
 into tight-packed groups to shield the wounded you're not going to get
-your standup fight at 1-1 odds; you'll find that skirmisher ability
-will shift the odds dramatically against you.  High mobility is
-destabilizing in general.
+your standup fight at 1-1 odds; you'll find that saurian skirmisher
+ability will shift the odds dramatically against you.  High mobility
+is destabilizing in general.
 
 Third caveat: Fortifications.  Units in castles or on terrain that
 favors their defense collect an advantage.  An assault on a fortified
@@ -482,7 +482,7 @@ to avoid them, or mitigate their effects, if you're playing smart.
 Remember, your goal is to challenge and stimulate the player, not
 randomly frustrate him/her.
 
-Another thing to avoid is the "tomato surprise" -- an unavoidable
+Another thing not to do is the "tomato surprise" -- an unavoidable
 event that, once you know about it after the first playthrough,
 completely changes the way you will play the scenario (even how you
 will play it before the event fires) on the second and later plays.
@@ -538,6 +538,9 @@ Bridge) seemed to involve about the right level of challenge, but that
 retaining enough gold to make Invaders winnable seemed unreasonably
 difficult.  Rather than retune the earlier scenarios, I put a pile of
 treasure under the boss troll.
+
+But the most reliable way to manage gold is to alternate hard and easy
+scenarios.  The easy ones generate gold, the hard ones eat it.
 
 10. Branching
 
