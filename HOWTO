@@ -1,5 +1,9 @@
 This is a HOWTO on writing campaigns that I'm developing by writing
-The Hammer Of Thursagan.
+The Hammer Of Thursagan.  Though THoT is my first all-original
+campaign, this draws on my experience co-authoring one (Northern
+Rebirth), editing five other campaigns for mainline (An Orcish
+Incursion, Liberty, Descent Into Darkness, The Scepter Of Fire, Son Of
+The Black Eye), and co-maintaining a sixth (The South Guard).
 
 1. Storyboarding
 
@@ -482,10 +486,24 @@ Another thing to avoid is the "tomato surprise" -- an unavoidable
 event that, once you know about it after the first playthrough,
 completely changes the way you will play the scenario (even how you
 will play it before the event fires) on the second and later plays.
+
 The Under The Burning Suns scenario "A Stirring in the Night" has a
 tomato surprise when the player-side hero Garak turns undead and the
 objective shifts to defeating him; this is a significant flaw in an
 otherwise interesting and well-written campaign.
+
+Beware of giving your player an AI ally as a balancing tactic.  It's
+quite hard to set up a battle in which the AI ally is reliably
+helpful.  Ally AIs are prone to quirks like grabbing villages when
+they ought to be fighting, or running units off into the middle of
+nowhere for no obvious reason.  It's unwise to count on them to do
+more than blunder into the enemy's path and slow him down a bit.
+
+If you want the ally side to be really helpful, consider giving the
+player actual control of it.  Northern Rebirth uses this technique in
+a couple of scenarios, including the big final one (Showdown, scenario
+13). The player gets to run both the human and drake sides, with elves
+and dwarves as AI allies.
 
 9. Larger-scale problems in campaign balancing
 
@@ -507,6 +525,12 @@ have periodic "gold-eater" scenarios that are basically designed
 to drain the player's reserves.  They then get reset to some
 reasonable minimum by the starting gold of the next scenario.
 
+"Son of the Black-Eye" is a long campaign at 19 scenarios. Scenario 10
+("Saving Inarix") is a gold-eater.  You must recruit heavily (and
+expensively) to survive, and most of those units are going to die.
+Without this bottleneck, there would be far too much gold sloshing
+around in scenarios 11-19.
+
 Sometimes the opposite tactic is useful.  The first really large fight
 in THoT is scenario 5, Invaders.  After several playthroughs I noticed
 that playing from campaign start to the end of scenario 4 (Troll
@@ -515,31 +539,83 @@ retaining enough gold to make Invaders winnable seemed unreasonably
 difficult.  Rather than retune the earlier scenarios, I put a pile of
 treasure under the boss troll.
 
-10. Trick Shots: Branching and Dynamic Objectives
+10. Branching
 
-To Do:
+It's perfectly possible to write an interesting campaign with a linear
+plot and the final objectives always shown at the beginning of each
+scenario.  Eight of the twelve campaigns currently in mainline fit
+this description.  
 
-Mention branching...
+For the more ambitious, there are a couple of techniques you can use
+to create more possible ways to play through the campaign and set up
+interesting surprises.  But these techniques have to be handled with
+care.
 
-Notes from IRC
+One technique is branching.  It's possible to set up logic that will
+dispatch a player to one of two (or even more) alternative next
+scenarios.  Typically you do this through a menu choice presented on
+victory.
 
-Zookeeper says: never change objectives mid-scenario if it's
-reasonably possible that the player cannot fulfill them if he didn't
-pre-plan for that. never rely on an AI ally to be able to accomplish
-anything. never make nasty surprise moveto traps.
+In The South Guard, for example, A Choice In The Fog (scenario 5)
+presents you with a choice of allying with either elves or human
+bandits against undead.  This starts you on one of two different
+plotlines that lead to different endings.  This is open branching.
+It's relatively simple.
 
-zookeeper> the greatest regular annoyances in campaigns for me are
-when the objectives change mid-scenario and i can no longer fulfill
-them (take hero to x,y, and i have him on the other side of the map)
-or when there's a sudden ambush in the middle of nowhere around an
-import
+Heir to the Throne has a trickier structure.  There is a branch point
+after Bay of Pearls (scenario 4); you can continue by land (Muff
+Malal's Peninsula, scenario 5a) or by sea (Isle of the Damned, 5b).
+Winning either 5a and 5b takes you Siege of Elensefar, scenario 6.
 
-Sirp> I think that if the objectives change mid-scenario it should
-either (1) not be too much of a difficult change strategically
-(perhaps as well as an extra difficulty the player also gets
-assistance from somewhere); or (2) the potential for the change should
-be strongly hinted at to give an observant player the opportunity to
-plan.
+Later in the campaign there is a three-way branch point after the
+aptly named A Choice Must Be Made (18). You can fight orcs on the 
+Snow Plains (19a), or you can fight undead in the Swamp of Dread (19b);
+both these scenarios lead to Home of The North Elves (20a).  If you
+have mermen you can get a third option, Cliffs of Thoria (19c).  This
+takes you to Underground Channels (20b).  Both 20a and 20b direct
+you to Elven Council (21) on victory.
 
-<zookeeper> also, you can increase the turn limit mid-scenario, which
-would be a good thing to do in those cases
+These are closed branches.  They rejoin the main plot when they're
+done.  The big issue with closed branches is that the branch paths
+have to have about equal difficulty levels.  Otherwise, you'll create
+a feast-or-famine instability later in the campaign because players
+can come to the merge point with widely varying amounts of gold.
+
+The Rise of Wesnoth has yet another, unique, kind of branch structure
+which illustrates how you can get really creative.  After Elf Lords
+(16) there are 4 challenge scenarios: The Dragon, A Beach, Troll Hole,
+and Cursed Isle.  You must do all 4, but you get to choose the order
+you do them in.  You loop back to Elf Lords after each victory; only
+completing all four lets you continue to A Spy In The Woods (18).
+
+It would probably be unwise to try to write a branch into your first
+campaign.  The Hammer of Thursagan, which is my first all-original
+campaign (after about half a dozen adaptations for mainline), has 
+no branches.  But once you become experienced enough, branching can
+greatly increase your design options and the repeated play value 
+of a campaign.
+
+11. Shifting Objectives
+
+An even tricker technique than branching is changing a scenario's
+objectives partway through it.  Handle this one with extreme care,
+because objective changes have a bad tendency to turn into tomato
+surprises (earlier we called out an example of this in Under The
+Burning Suns).
+
+Never change objectives in such a way that the player can't possibly
+meet them without pre-planning for the new ones.  As an obvious
+example, changing a scenario's objective to from "defeat all ememies"
+to "move your hero to the signpost" is quite likely to be horribly
+frustrating to the player -- the hero might be fighting all the way on
+the other side of the map.  
+
+If you really must pull something like this, at least increase the
+scenario turn limit spo the player will have time to refocus and
+go after the new goals.
+
+In general, if the objectives change mid-scenario, the change should
+either (1) not be toodifficult change strategically (perhaps as well
+as an extra difficulty, the player also gets assistance from
+somewhere), or (2) the potential for the change should be strongly
+hinted at to give an observant player the opportunity to plan.
