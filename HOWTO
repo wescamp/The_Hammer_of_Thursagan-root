@@ -104,7 +104,9 @@ beware lest your stamina fail to match your ambition.
 Thursagan's Hammer is 13 scenarios; of those, scenarios 2 and 13 are
 talk only, I chose that length carefully after having studied the
 mainline WML and noticing that 11 "real" battle scenarios seems to be
-a sweet spot; you should choose yours just as carefully.
+a sweet spot (a point, by the way, on which the original designer of
+Wesnoth says he strongly agrees).  You should choose yours just as
+carefully.
 
 2. Tips for good storyline writing
 
@@ -171,7 +173,7 @@ you have to budget a lot of that for plot.  You can't afford to spend
 lots of verbiage on characterization, which means every bit you do
 has to count.
 
-3. Flow, Climax, and Story Arcs
+3. Flow, climax, and story arcs
 
 The basic trajectory of a Wesnoth campaign should work like the basic
 trajectory of any story -- a building-up of tension, followed by a
@@ -183,8 +185,8 @@ to the rough number of veterans you expect your player to have
 when it starts.
 
 In Wesnoth, an explicit resolution often takes the form of a single
-talk-only Epilog scenario.  From a strictly gaming point of view
-there's no point to an Epilog because there's no battle; it's very
+talk-only Epilogue scenario.  From a strictly gaming point of view
+there's no point to an Epilogue because there's no battle; it's very
 much there to finish the story.
 
 Long campaigns may actually have two or even three story arcs in
@@ -212,7 +214,7 @@ Also, note which scenarios are intended to be easy and which hard.
 That way you'll notice when you have two hard or two easy scenarios
 adjacent and get a good clue about something that might need fixing.
 
-4. Writing with Flavor
+4. Writing with flavor
 
 Now I'm going to talk about prose and style.  I'm aware that unless you're
 already a fairly good writer, the advice I'm about to give will be
@@ -224,11 +226,11 @@ BfW is a fantasy game.  Your storyline will work best (be most
 accessible to the player, have the most interesting atmosphere) if
 your player finds your prose similar to the experience of reading a
 well-written modern fantasy novel of the epic type -- that is, not 
-urban fantasy or horror, but part of the epic tradition largely
+urban fantasy or horror, but part of the high-fantasy tradition largely
 derived from J.R.R. Tolkien and a few other lesser-known writers
 (James Branch Cabell, Lord Dunsany, E.R. Eddison, etc.).
 
-Therefore, you need to know about the conventions for how fantasy
+Therefore, you need to know about the conventions for how high-fantasy
 prose should sound.  If you are an *extremely* good writer (like, say,
 the author of "The Rise of Wesnoth"), you can play directly against
 these conventions.  Very few people are that good; the rest of us
@@ -241,24 +243,21 @@ much more appropriate than trying to pull the player into a private
 artistic world of your own.
 
 Here's an example.  I wrote the description of Mal-Ravanal's death 
-at the beginnning of the Epilog to Eastern Invasion.  Here it is:
+at the beginning of the Epilogue to Eastern Invasion.  Here it is:
 
-   When Mal-Ravanal fell, the living creatures under his banner broke
-   and fled; the undead simply collapsed like puppets with their
-   strings cut. As the lich's death-scream echoed in the air, a vast
-   and louring column of shadow arose from his corpse like smoke from
-   an unclean fire; then it divided fivefold at its height, reaching
-   for the heavens like a clutching hand.
+   As the lich's death-scream echoed in the air, a vast and louring
+   column of shadow arose from his corpse like smoke from an unclean
+   fire; then it divided fivefold at its height, reaching for the
+   heavens like a clutching hand.
  
    Men let weapons fall from nerveless fingers and horses reared in
-   terror as that great dark pall obscured the sun...
+   terror as that great dark pall obscured the sun...and then it
+   thinned, and paled, and a breeze from the west dissolved it in
+   tatters, and the light of day shone once again undiminished on
+   Weldyn.
 
-   ...and then it thinned, and paled, and a breeze from the west
-   dissolved it in tatters, and the light of day shone once again
-   undiminished on Weldyn.
-
-I lifted this quite consciously from J.R. R. Tolkien's description of the
-passing of Sauron in The Return of the King:
+I lifted the central image quite consciously from J.R.R. Tolkien's
+description of the passing of Sauron in The Return of the King:
 
     ...black against the pall of cloud, there rose a huge shape of shadow,
     impenetrable, lightning-crowned, filling all the sky.  Enormous it
@@ -268,7 +267,8 @@ passing of Sauron in The Return of the King:
     then a hush fell.
 
 Remember, some cliches are cliches because they *work*.  Go and do
-likewise whenever appropriate.
+likewise whenever appropriate.  Don't lift word-for-word, though;
+that can lead to copyright problems.
 
 Second rule: Fantasy characters don't use modern slang or speech
 rhythm.  You should write in careful, formal English.  If it's
@@ -282,7 +282,7 @@ saying "Hail" rather than "Hello" for a reason; it creates a sense of
 some strangeness appropriate for a fantasy milieu.  
 
 Sparing use of poetic and dialect words is good.  For example, in
-one of THOT's scenarios there's a line like this:
+one of THoT's scenarios there's a line like this:
 
    Scout: Nae sign o' bandits I can see, captain -- but there are three 
    muckle hosts of orcs off to our east.
@@ -312,10 +312,10 @@ dour, canny mountain folk who are good at engineering and hold grudges
 forever; the similarity even makes sense to a Scot.  This is why a
 Scots accent "feels right" for a dwarf.)
 
-If you have the skill for it, give your characters accents -- or,
-at least, distinguishable speech patterns.  Elves should sound
-poetic and hyper-correct, orcs should sound brutal and angry, trolls
-and ogres should sound stupid.
+If you have the skill for it, give your characters accents -- or, at
+least, distinguishable speech patterns.  Elves should sound flowery
+and hyper-correct, dwarves should sound dour and tough, orcs should
+sound brutal and angry, trolls and ogres should sound stupid.
 
 Fourth rule: Change register appropriately.
 
@@ -326,16 +326,196 @@ narration.  At times of great intensity, shift your prose a bit away
 from colloquial modern English -- make it more formal, more
 fantasy-tinged, more *powerful*.
 
-5.  Maps and Battles
+5.  Making interesting maps
 
-[ADD MORE HERE]
+The most useful thing you can know about designing maps is that it
+seems to be actively difficult to design a map that both has visually
+interesting terrain and produces a boring battle.  The AIs are quite
+senstive to movement costs; thus, they tend to seize on even small
+irregularities in your map and turn them into relatively dramatic
+effects on how AI-controlled units move and attack.
 
-6. Campaign Balancing
+Therefore, when you're designing a first-draft map you can generally
+relax and make interesting-looking doodles that fit your storyline,
+without worrying too much about shaping the battle.  After you've
+played your scenario through a few times and seen what the AIs do with
+the terrain, you may find you want to tweak a few things, but I find
+this is often unnecessary.  When I do tweak, more often than not it's
+just to adjust the density and placement of villages.
 
-One of the problems Wesnoth campaign designers have to deal with 
-is controlling gold accumulation.  
+There is one specific gotcha about dungeon maps: it is not generally a
+good idea to draw corridors or openings only a single hex wide.  These
+too easily become bottlenecks where cooperating weak units can hold up
+strong ones indefinitely, especially if there's a village nearby for
+wounded defenders to rotate through.  It's frustrating to be on the
+wrong end of this, so don't draw such narrow apertures unless you have
+a specific reason for wanting a bottleneck.
 
-[ADD MORE HERE]
+We've mostly reduced the problem of designing interesting map to making
+visually interesting terrain.  So, what makes visually interesting terrain?
+
+The answer is this: real landscapes look like like fractal noise --
+2-dimensional waveforms that are self-similar at all scales (treelike,
+cloudlike, wavelike).  Human brains respond to this; in fact, we've
+evolved to like it so much that we generate artificial 1-dimensional
+fractal noise for pleasure, and call it "music".
+
+So, learn how to doodle fractal noise in the map editor and you'll have
+the trick of making maps that are interesting.  That will translate
+fairly directly into interesting battles.  I find that it helps to 
+doodle quickly ad roughly and turn your mouse errors into seeds 
+for more fractal irregularities.
+
+6. Army balancing.
+
+The key fact that makes army balancing possible is this: no matter
+what faction you're playing, one gold piece is going to get you about
+the same sum of combat power and endurance.  Units that have
+advantages in one direction (such as, say, the saurian combination of
+mobility and skirmisher ability) will have disadvantages in another
+direction (Saurians have relativity low hit points, so they die
+quickly in a standup fight at 1-1 odds).
+
+Therefore, the Equal-Cost-Equal-Power Rule (ECEPR): you can balance
+armies fairly effectively by giving them the same amount of gold to
+recruit with.  The Wesnoth maintainers tune units and factions with
+the main goal of ensuring that ECEPR stays true.
+
+There are a couple of caveats to this.  First caveat: some
+combinations of factions are more "unstable" than others -- that is,
+while the expected outcome of 1000 fights between equal-cost armies
+from factions A and B is about a 50% split no matter which factions A
+and B are, some combinations are more prone to swing large around the
+mean.  Thus they will seem very sensitive to tactics and dumb luck.
+
+Dwarves or outlaws vs. orcs, for example, is pretty stable -- unless
+the orcs have assassins, in which case the variance goes up (poison is
+destabilizing in general).  Mages vs. undead is unstable; in general,
+pure archers vs. pure infantry is unstable.
+
+Second caveat, related: to get that 50/50 split it has to be the case
+that each side is using the right countertactics against the other.
+Your chances running (say) an equal-cost army of dwarves againt
+saurians may be 50/50 in the large, but if you don't pull your dwarves
+into tight-packed groups to shield the wounded you're not going to get
+your standup fight at 1-1 odds; you'll find that skirmisher ability
+will shift the odds dramatically against you.  High mobility is
+destabilizing in general.
+
+Third caveat: Fortifications.  Units in castles or on terrain that
+favors their defense collect an advantage.  An assault on a fortified
+position will require more gold to the attacking side to make it even.
+There's no real rule of thumb here: you have to balance-test and watch
+what happens.
+
+Fourth caveat: ECEP doesn't count player veterans in campaigns.
+Player veterans have a fixed cost of 20 each, which is less -- often a
+*lot* less -- than the unit cost if you had to buy it direct (assuming
+you were able to).  An Archmage, for example, costs 59 gold and has
+about three times the combat power of a typical L1 unit; getting it
+for 20 gold is a steal.
+
+Here there is a rule of thumb.  L2 units tend to be just about twice
+as powerful as L1s, and L3 units roughly three times as powerful.
+This, you can multiply a player side's starting gold by the average
+level of its recruiting list to get a number roughly comparable to an
+AI side's starting gold.
+
+To tilt a fight against one side, change the armies' starting gold.
+The unit to think about when you do this is a recruit-equivalent.  A
+recruit-equivalent (RE) is the amount of gold required for each army
+to recruit an average L1 unit of its faction.  So, for example,
+dwarves have a L1 Fighter costing 16 gold and a L1 Thunderer costing
+17 gold; a dwarven RE is thus 16.5.  Think in multiples of a side's
+RE when changing its gold level.
+
+7. Scenario and campaign balancing
+
+How hard is too hard?  Remember that as a campaign designer, your job
+is to produce fun, not frustration.  
+
+Hence, the First-Time-Possible Rule (FTPR): It should be possible for a
+skilled enough Wesnoth player to win each scenario without any
+restarts first time he/she plays it, provided he/she doesn't make any
+actual mistakes and is not seriously unlucky.
+
+Because your player accumulates veterans, first-time-win without
+restarts can still be just possible in a campaign's late scenarios
+even though they involve much nastier opponents than earlier on.
+
+We have a distinction between Beginner, Intermediate, and Advanced
+campaigns; this is what defines "skilled enough".  At Beginner level,
+"skilled enough" means little more than "able to able to move and
+fight units in rough groups and rotate your wounded out of the
+way". At Advanced level, "skilled enough" implies tactical expertise
+-- the ability to organize a flanking assault, ZOC-pin enemy units
+with mobile troops, manage a fighting retreat, etc.  Intermediate is
+in between.
+
+This is at the campaign or scenario's Normal level of difficulty; it
+is OK, and expected, that Easy will be easier and Hard will be harder.
+How much is up to you.  A good way to go is to balance-test extensively
+at Normal level, then adjust gold and/or turns and/or recruit lists
+to make Easy about 25% easier and Hard about 25% harder.
+
+The balancing method that seems to work for me is simply to play
+through the campaign often enough to get a feel for the number of
+veterans the player will typically have going into each scenario, and
+then tune the enemy gold so the player can just about beat it reliably
+at Normal level *with those veterans*.
+
+8. Traps to Avoid
+
+One major main thing to avoid in designing scenarios is landmines --
+random or unforeseeable events that make it impossible to win even if
+the player is playing intelligently.  A fair number of user-made
+campaigns have been consigned to the outer darkness forever because
+they have nasty surprise moveto traps that are, in effect, landmines.
+
+This is not to say that all moveto traps are bad.  An important feature
+of good ones is that the story dialog gives clues that are sufficient
+to avoid them, or mitigate their effects, if you're playing smart.
+Remember, your goal is to challenge and stimulate the player, not
+randomly frustrate him/her.
+
+Another thing to avoid is the "tomato surprise" -- an unavoidable
+event that, once you know about it after the first playthrough,
+completely changes the way you will play the scenario (even how you
+will play it before the event fires) on the second and later plays.
+The Under The Burning Suns scenario "A Stirring in the Night" has a
+tomato surprise when the player-side hero Garak turns undead and the
+objective shifts to defeating him; this is a significant flaw in an
+otherwise interesting and well-written campaign.
+
+9. Larger-scale problems in campaign balancing
+
+There's a problem in the Wesnoth reward system.  Making too little
+gold in a scenario increases the chance that you'll fare badly in the
+next one, because you can't afford to recall enough vets to beat the 
+turn limit.  Conversely, success is self-reinforcing; beating a
+scenario early may mean you can use the bonus gold to beat the 
+next one even more aggressively.
+
+Without careful management, this can lead to a kind of feast-or-famine
+instability in which players of a campaign are either perpetually starved for 
+gold and struggling in an un-fun way, or rolling in gold and able to
+recruit with such abandon that even hard scenarios are too easy.
+
+This feast-or-famine instability is the main reason very long
+campaigns tend not to work.  The exceptions that do work tend to 
+have periodic "gold-eater" scenarios that are basically designed 
+to drain the player's reserves.  They then get reset to some
+reasonable minimum by the starting gold of the next scenario.
+
+Sometimes the opposite tactic is useful.  The first really large fight
+in THoT is scenario 5, Invaders.  After several playthroughs I noticed
+that playing from campaign start to the end of scenario 4 (Troll
+Bridge) seemed to involve about the right level of challenge, but that
+retaining enough gold to make Invaders winnable seemed unreasonably
+difficult.  Rather than retune the earlier scenarios, I put a pile of
+treasure under the boss troll.
+
+10. Trick Shots: Branching and Dynamic Objectives
 
 To Do:
 
@@ -347,23 +527,6 @@ Zookeeper says: never change objectives mid-scenario if it's
 reasonably possible that the player cannot fulfill them if he didn't
 pre-plan for that. never rely on an AI ally to be able to accomplish
 anything. never make nasty surprise moveto traps.
-
-never make it reasonably possible for someone playing the scenario for
-the first time to lose due to anything but his own mistakes
-
-if one needs to put surprises, like sudden moveto traps or such, it's
-easy enough to give clear hints about them in dialogue or such
-
-Test your campaign on "Normal".
-
-a campaign should aim to allow a skilled player to have a chance of
-finishing it on the first play through with no restarts, if they do
-well.
-
-Sirp> esr: btw I do think there is actually a slight danger with
-writing the storyline first of ending up with a huge storyline that
-calls for an epic campaign and then finding that actually making and
-playtesting the scenarios is far too much work.
 
 zookeeper> the greatest regular annoyances in campaigns for me are
 when the objectives change mid-scenario and i can no longer fulfill
