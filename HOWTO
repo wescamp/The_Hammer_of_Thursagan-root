@@ -1,3 +1,7 @@
+= Campaign Design How-To =
+Eric S. Raymond <esr@thyrsus.com>
+v1.0, November 2007
+
 This is a HOWTO on writing campaigns that I'm developing by writing
 The Hammer Of Thursagan.  Though THoT is my first all-original
 campaign, this draws on my experience co-authoring one (Northern
@@ -5,7 +9,7 @@ Rebirth), editing five other campaigns for mainline (An Orcish
 Incursion, Liberty, Descent Into Darkness, The Scepter Of Fire, Son Of
 The Black Eye), and co-maintaining a sixth (The South Guard).
 
-1. Storyboarding
+== Storyboarding ==
 
 First, *write your storyline*.  Battles may be the center of BfW, but 
 writing an interesting storyline and designing battles to fit works better
@@ -22,70 +26,72 @@ Here is an example of a storyboard section from The Hammer Of Thursagan.
 Most storyboards section are shorter than this; I chose an complex one 
 to give an idea of the range of things you may want to do in a storyboard.
 
-    Scenario 6: High Pass
+----------------------------------------------------------------------------
+Scenario 6: High Pass
 
-    Angarthing: Behold, the High Pass.  By the old maps, we are halfway to
-    Kal Kartha here. 
+Angarthing: Behold, the High Pass.  By the old maps, we are halfway to
+Kal Kartha here. 
 
-    Aiglondur: We must push through quickly; there is a vicious storm
-    coming in behind us.  Being caught in a blizzard on those heights
-    would be no laughing matter.
+Aiglondur: We must push through quickly; there is a vicious storm
+coming in behind us.  Being caught in a blizzard on those heights
+would be no laughing matter.
 
-    The map should be a twisty, narrow path through rugged snow-capped
-    mountains.  The objective will be to get Aiglondur through to the
-    other side.  The opponents will be gryphons, wolves, and the elements.
-    We should try to get creative with representing the effects of extreme
-    cold, perhaps something like the dehydration effect in UtBS.  And the
-    time-limit should be tight.
+The map should be a twisty, narrow path through rugged snow-capped
+mountains.  The objective will be to get Aiglondur through to the
+other side.  The opponents will be gryphons, wolves, and the elements.
+We should try to get creative with representing the effects of extreme
+cold, perhaps something like the dehydration effect in UtBS.  And the
+time-limit should be tight.
 
-    There should be a village near the midpoint of the pass.  When the players 
-    occupy it, a Red Mage named Ratheln will appear.
+There should be a village near the midpoint of the pass.  When the players 
+occupy it, a Red Mage named Ratheln will appear.
 
-    Ratheln: Hail, I am Ratheln.  If you're traveling down the pass,
-    please take me with you.  I am near freezing and starving to death up
-    here.
+Ratheln: Hail, I am Ratheln.  If you're traveling down the pass,
+please take me with you.  I am near freezing and starving to death up
+here.
 
-    Angarthing: Pardon my curiosity, but what is a firemage doing freezing to 
-    death?
+Angarthing: Pardon my curiosity, but what is a firemage doing freezing to 
+death?
 
-    Ratheln: In case you haven't noticed, there is a serious shortage of
-    both firewood and food in this gods-forsaken slot.  And the damned
-    gryphons descend on me whenever I stir out of this shack.  I've
-    had nothing to eat but flash-roasted gryphon for the last three
-    weeks.
+Ratheln: In case you haven't noticed, there is a serious shortage of
+both firewood and food in this gods-forsaken slot.  And the damned
+gryphons descend on me whenever I stir out of this shack.  I've
+had nothing to eat but flash-roasted gryphon for the last three
+weeks.
 
-    Aiglondur: Where were you bound when you got stuck here?
+Aiglondur: Where were you bound when you got stuck here?
 
-    Ratheln: There is a school of mages near the east end of the pass.
-    They've an opening for an instructor, and they're expecting me.
+Ratheln: There is a school of mages near the east end of the pass.
+They've an opening for an instructor, and they're expecting me.
 
-    Angarthing: Let's take him with us, Aiglondur.  We know little
-    about the country beyond to the east; we've had few reports on it
-    since before the orcs took Knalga.  Those mages should know at
-    least rumors.
+Angarthing: Let's take him with us, Aiglondur.  We know little
+about the country beyond to the east; we've had few reports on it
+since before the orcs took Knalga.  Those mages should know at
+least rumors.
 
-    Aiglondur: Aye.  And I'd not leave anyone who had done my kin no harm
-    stranded to starve.
+Aiglondur: Aye.  And I'd not leave anyone who had done my kin no harm
+stranded to starve.
 
-    On victory:
+On victory:
 
-    Aiglondur: We're through the pass!
+Aiglondur: We're through the pass!
 
-    Angarthing: That may not be a blessing. Something frightened those
-    orcs enough to make them push west into Alliance territory.  Don't you
-    wonder what it was?
+Angarthing: That may not be a blessing. Something frightened those
+orcs enough to make them push west into Alliance territory.  Don't you
+wonder what it was?
 
-    Aiglondur: Aye.  But I've a grim feeling we might be going to 
-    discover that in person.
+Aiglondur: Aye.  But I've a grim feeling we might be going to 
+discover that in person.
 
-    On halfway through the turns:
+On halfway through the turns:
 
-    Aiglondur: It has begun to snow.  Move, everyone!  To be trapped here 
-    would be death.
+Aiglondur: It has begun to snow.  Move, everyone!  To be trapped here 
+would be death.
 
-    On time out:
+On time out:
 
-    Aiglondur: We're snowed in.  Our mission has failed, even if we live.
+Aiglondur: We're snowed in.  Our mission has failed, even if we live.
+----------------------------------------------------------------------------
 
 The WML for THoT::High Pass doesn't exactly match this; I added ogres and 
 woses as possible enemies, and some of the dialogue has changed a little.
@@ -94,9 +100,9 @@ is to help you focus on storyline composition without being distracted
 by WML and implementation details.
 
 You don't even necessarily have to write out every single line of
-dialog in your storyboard drafts.  I like to do that, but "The
+dialog in your storyboard drafts.  I like to do that, but ``The
 captain and the mage discuss how difficult the upcoming battle will
-be" is probably good enough for a first pass.
+be'' is probably good enough for a first pass.
 
 One last note about storyboarding: pick a reasonable campaign length
 (count of scenarios) and stick with it.  We've found by experience
@@ -107,18 +113,18 @@ beware lest your stamina fail to match your ambition.
 
 Thursagan's Hammer is 13 scenarios; of those, scenarios 2 and 13 are
 talk only, I chose that length carefully after having studied the
-mainline WML and noticing that 11 "real" battle scenarios seems to be
+mainline WML and noticing that 11 ``real'' battle scenarios seems to be
 a sweet spot (a point, by the way, on which the original designer of
 Wesnoth says he strongly agrees).  You should choose yours just as
 carefully.
 
-2. Tips for good storyline writing
+== Tips for good storyline writing ==
 
 A good storyline is not just a series of incidents hanging in the
 void.  A good storyline has continuity within itself and connections
 to the rest of the world of Battle For Wesnoth.
 
-Use place names.  "Behold, the High Pass...we are halfway to Kal Kartha".
+Use place names. ``Behold, the High Pass...we are halfway to Kal Kartha.''
 You create a sense with these that the story is *situated*; the 
 landscape means something to the characters, and the reader is invited
 into their world of meanings.  It's even better when you can use a place 
@@ -127,39 +133,43 @@ name on the main Wesnoth map; this ties the campaign to the known world.
 Use calendar references that situate the campaign in the Wesnoth timeline.  
 The intro for the first scenario of THoT ends like this:
 
-    But the threat from hostile orcs, wild men, and remnant undead was not
-    yet ended.  The dwarves kept strong guards on the approaches to
-    Knalga. In the year 550 after the founding of Wesnoth, the captain of
-    the East Gate received a warning that a small band of rogue orcs
-    had been sighted.
+------------------------------------------------------------------------
+But the threat from hostile orcs, wild men, and remnant undead was not
+yet ended.  The dwarves kept strong guards on the approaches to
+Knalga. In the year 550 after the founding of Wesnoth, the captain of
+the East Gate received a warning that a small band of rogue orcs
+had been sighted.
+------------------------------------------------------------------------
 
 This is a story hook.  We know where it happens, we know when, and we've
 introduced our first character: the (not yet named) captain of the East
 Gate of Knalga.  The first speaking lines in the scenario are his.
 
 Use foreshadowing and back references to create continuity. In our
-storyboard for High Pass: "There is a school of mages near the east
-end of the pass."  This is a really simple form of foreshadowing; the
-player is quite likely to think "School of mages?  Cool! I hope I get
-to see it in next scenario."  You've given the player something to
+storyboard for High Pass: ``There is a school of mages near the east
+end of the pass.''  This is a really simple form of foreshadowing; the
+player is quite likely to think ``School of mages?  Cool! I hope I get
+to see it in next scenario.''  You've given the player something to
 anticipate -- and when he *does* actually see that school in Mages And
 Drakes (scenario 7), you'll have created a continuity, a bit of thread
 that ties High Pass together with Mages And Drakes.
 
-"Something frightened those orcs enough to make them push west into
-Alliance territory" -- that's a back reference to the action of
-scenario 5, "Invaders".  By writing this, we give that scenario a
+``Something frightened those orcs enough to make them push west into
+Alliance territory'' -- that's a back reference to the action of
+scenario 5, _Invaders_.  By writing this, we give that scenario a
 meaning it didn't have before; we tie it to the present of the
 characters in High Pass.  This is another kind of continuity, making
 the story stronger.
 
 Develop characters. Look at this again:
 
-    Ratheln: In case you haven't noticed, there is a serious shortage of
-    both firewood and food in this gods-forsaken slot.  And the damned
-    gryphons descend on me whenever I stir out of this shack.  I've
-    had nothing to eat but flash-roasted gryphon for the last three
-    weeks.
+----------------------------------------------------------------------
+Ratheln: In case you haven't noticed, there is a serious shortage of
+both firewood and food in this gods-forsaken slot.  And the damned
+gryphons descend on me whenever I stir out of this shack.  I've
+had nothing to eat but flash-roasted gryphon for the last three
+weeks.
+----------------------------------------------------------------------
 
 We get a good sense of what Ratheln is like from this -- gruff, sarcastic, 
 and the kind of tough that will tear into a gryphon carcass with his 
@@ -177,12 +187,12 @@ you have to budget a lot of that for plot.  You can't afford to spend
 lots of verbiage on characterization, which means every bit you do
 has to count.
 
-3. Flow, climax, and story arcs
+== Flow, climax, and story arcs ==
 
 The basic trajectory of a Wesnoth campaign should work like the basic
 trajectory of any story -- a building-up of tension, followed by a
 climax, followed by a wrap-up or resolution (writers call this the
-"story arc").  So simply for narrative reasons, early scenarios should
+``story arc'').  So simply for narrative reasons, early scenarios should
 be easy and later ones progressively more difficult.  In Wesnoth,
 of course, this is also necessary because each scenario has to be matched 
 to the rough number of veterans you expect your player to have 
@@ -218,7 +228,7 @@ Also, note which scenarios are intended to be easy and which hard.
 That way you'll notice when you have two hard or two easy scenarios
 adjacent and get a good clue about something that might need fixing.
 
-4. Writing with flavor
+== Writing with flavor ==
 
 Now I'm going to talk about prose and style.  I'm aware that unless you're
 already a fairly good writer, the advice I'm about to give will be
@@ -236,7 +246,7 @@ derived from J.R.R. Tolkien and a few other lesser-known writers
 
 Therefore, you need to know about the conventions for how high-fantasy
 prose should sound.  If you are an *extremely* good writer (like, say,
-the author of "The Rise of Wesnoth"), you can play directly against
+the author of _The Rise of Wesnoth_), you can play directly against
 these conventions.  Very few people are that good; the rest of us
 (including me) are better off following them as carefully as we can.
 
@@ -247,28 +257,32 @@ much more appropriate than trying to pull the player into a private
 artistic world of your own.
 
 Here's an example.  I wrote the description of Mal-Ravanal's death 
-at the beginning of the Epilogue to Eastern Invasion.  Here it is:
+at the beginning of the Epilogue to _Eastern Invasion_.  Here it is:
 
-   As the lich's death-scream echoed in the air, a vast and louring
-   column of shadow arose from his corpse like smoke from an unclean
-   fire; then it divided fivefold at its height, reaching for the
-   heavens like a clutching hand.
- 
-   Men let weapons fall from nerveless fingers and horses reared in
-   terror as that great dark pall obscured the sun...and then it
-   thinned, and paled, and a breeze from the west dissolved it in
-   tatters, and the light of day shone once again undiminished on
-   Weldyn.
+-------------------------------------------------------------------------
+As the lich's death-scream echoed in the air, a vast and louring
+column of shadow arose from his corpse like smoke from an unclean
+fire; then it divided fivefold at its height, reaching for the
+heavens like a clutching hand.
+
+Men let weapons fall from nerveless fingers and horses reared in
+terror as that great dark pall obscured the sun...and then it
+thinned, and paled, and a breeze from the west dissolved it in
+tatters, and the light of day shone once again undiminished on
+Weldyn.
+-------------------------------------------------------------------------
 
 I lifted the central image quite consciously from J.R.R. Tolkien's
 description of the passing of Sauron in The Return of the King:
 
-    ...black against the pall of cloud, there rose a huge shape of shadow,
-    impenetrable, lightning-crowned, filling all the sky.  Enormous it
-    reared above the world, and stretched out towards them a vast
-    threatening hand, terrible but impotent; for even as it leaned over
-    them, a great wind took it, and it was all blown away, and passed; and
-    then a hush fell.
+-------------------------------------------------------------------------
+...black against the pall of cloud, there rose a huge shape of shadow,
+impenetrable, lightning-crowned, filling all the sky.  Enormous it
+reared above the world, and stretched out towards them a vast
+threatening hand, terrible but impotent; for even as it leaned over
+them, a great wind took it, and it was all blown away, and passed; and
+then a hush fell.
+-------------------------------------------------------------------------
 
 Remember, some cliches are cliches because they *work*.  Go and do
 likewise whenever appropriate.  Don't lift word-for-word, though;
@@ -281,18 +295,20 @@ relaxed rhythms of late-19th and early 20th-century English as written
 by an Oxford don (this was Tolkien's dialect).
 
 Third rule: Use archaic and poetic forms -- carefully.  For example,
-"I fear that..."  is better than "I'm afraid that..."  I have Ratheln
-saying "Hail" rather than "Hello" for a reason; it creates a sense of
+``I fear that...''  is better than ``I'm afraid that...''  I have Ratheln
+saying ``Hail'' rather than ``Hello'' for a reason; it creates a sense of
 some strangeness appropriate for a fantasy milieu.  
 
 Sparing use of poetic and dialect words is good.  For example, in
 one of THoT's scenarios there's a line like this:
 
-   Scout: Nae sign o' bandits I can see, captain -- but there are three 
-   muckle hosts of orcs off to our east.
+-------------------------------------------------------------------------
+Scout: Nae sign o' bandits I can see, captain -- but there are three 
+muckle hosts of orcs off to our east.
+-------------------------------------------------------------------------
 
-Many of your readers won't know that "muckle" is a Scots-dialect (and
-archaic English) word meaning "a large amount" or "great".  But a few
+Many of your readers won't know that ``muckle'' is a Scots-dialect (and
+archaic English) word meaning ``a large amount'' or ``great''.  But a few
 will, and a few more will guess the meaning correctly.  For those
 who don't, the presence of a word they don't know will be a bracing
 little hint of the strange -- as long as (and this is important!)
@@ -314,7 +330,7 @@ it differentiates them from humans in a useful and interesting way.
 share many characteristics with fantasy dwarves.  Both are tough,
 dour, canny mountain folk who are good at engineering and hold grudges
 forever; the similarity even makes sense to a Scot.  This is why a
-Scots accent "feels right" for a dwarf.)
+Scots accent ``feels right'' for a dwarf.)
 
 If you have the skill for it, give your characters accents -- or, at
 least, distinguishable speech patterns.  Elves should sound flowery
@@ -330,7 +346,7 @@ narration.  At times of great intensity, shift your prose a bit away
 from colloquial modern English -- make it more formal, more
 fantasy-tinged, more *powerful*.
 
-5.  Making interesting maps
+== Making interesting maps ==
 
 The most useful thing you can know about designing maps is that it
 seems to be actively difficult to design a map that both has visually
@@ -362,15 +378,15 @@ The answer is this: real landscapes look like like fractal noise --
 2-dimensional waveforms that are self-similar at all scales (treelike,
 cloudlike, wavelike).  Human brains respond to this; in fact, we've
 evolved to like it so much that we generate artificial 1-dimensional
-fractal noise for pleasure, and call it "music".
+fractal noise for pleasure, and call it ``music''.
 
 So, learn how to doodle fractal noise in the map editor and you'll have
 the trick of making maps that are interesting.  That will translate
 fairly directly into interesting battles.  I find that it helps to 
-doodle quickly ad roughly and turn your mouse errors into seeds 
+doodle quickly and roughly and turn your mouse errors into seeds 
 for more fractal irregularities.
 
-6. Army balancing.
+== Army balancing ==
 
 The key fact that makes army balancing possible is this: no matter
 what faction you're playing, one gold piece is going to get you about
@@ -386,7 +402,7 @@ recruit with.  The Wesnoth maintainers tune units and factions with
 the main goal of ensuring that ECEPR stays true.
 
 There are a couple of caveats to this.  First caveat: some
-combinations of factions are more "unstable" than others -- that is,
+combinations of factions are more ``unstable'' than others -- that is,
 while the expected outcome of 1000 fights between equal-cost armies
 from factions A and B is about a 50% split no matter which factions A
 and B are, some combinations are more prone to swing large around the
@@ -433,7 +449,7 @@ dwarves have a L1 Fighter costing 16 gold and a L1 Thunderer costing
 17 gold; a dwarven RE is thus 16.5.  Think in multiples of a side's
 RE when changing its gold level.
 
-7. Scenario and campaign balancing
+== Scenario and campaign balancing ==
 
 How hard is too hard?  Remember that as a campaign designer, your job
 is to produce fun, not frustration.  
@@ -448,10 +464,10 @@ restarts can still be just possible in a campaign's late scenarios
 even though they involve much nastier opponents than earlier on.
 
 We have a distinction between Beginner, Intermediate, and Advanced
-campaigns; this is what defines "skilled enough".  At Beginner level,
-"skilled enough" means little more than "able to able to move and
+campaigns; this is what defines ``skilled enough''.  At Beginner level,
+``skilled enough'' means little more than ``able to able to move and
 fight units in rough groups and rotate your wounded out of the
-way". At Advanced level, "skilled enough" implies tactical expertise
+way''. At Advanced level, ``skilled enough'' implies tactical expertise
 -- the ability to organize a flanking assault, ZOC-pin enemy units
 with mobile troops, manage a fighting retreat, etc.  Intermediate is
 in between.
@@ -468,7 +484,7 @@ veterans the player will typically have going into each scenario, and
 then tune the enemy gold so the player can just about beat it reliably
 at Normal level *with those veterans*.
 
-8. Traps to Avoid
+== Traps to Avoid ==
 
 One major main thing to avoid in designing scenarios is landmines --
 random or unforeseeable events that make it impossible to win even if
@@ -482,12 +498,12 @@ to avoid them, or mitigate their effects, if you're playing smart.
 Remember, your goal is to challenge and stimulate the player, not
 randomly frustrate him/her.
 
-Another thing not to do is the "tomato surprise" -- an unavoidable
+Another thing not to do is the ``tomato surprise'' -- an unavoidable
 event that, once you know about it after the first playthrough,
 completely changes the way you will play the scenario (even how you
 will play it before the event fires) on the second and later plays.
 
-The Under The Burning Suns scenario "A Stirring in the Night" has a
+The Under The Burning Suns scenario _A Stirring in the Night_ has a
 tomato surprise when the player-side hero Garak turns undead and the
 objective shifts to defeating him; this is a significant flaw in an
 otherwise interesting and well-written campaign.
@@ -505,7 +521,7 @@ a couple of scenarios, including the big final one (Showdown, scenario
 13). The player gets to run both the human and drake sides, with elves
 and dwarves as AI allies.
 
-9. Larger-scale problems in campaign balancing
+== Larger-scale problems in campaign balancing ==
 
 There's a problem in the Wesnoth reward system.  Making too little
 gold in a scenario increases the chance that you'll fare badly in the
@@ -521,20 +537,20 @@ recruit with such abandon that even hard scenarios are too easy.
 
 This feast-or-famine instability is the main reason very long
 campaigns tend not to work.  The exceptions that do work tend to 
-have periodic "gold-eater" scenarios that are basically designed 
+have periodic ``gold-eater'' scenarios that are basically designed 
 to drain the player's reserves.  They then get reset to some
 reasonable minimum by the starting gold of the next scenario.
 
-"Son of the Black-Eye" is a long campaign at 19 scenarios. Scenario 10
-("Saving Inarix") is a gold-eater.  You must recruit heavily (and
+_Son of the Black-Eye_ is a long campaign at 19 scenarios. Scenario 10
+(_Saving Inarix_) is a gold-eater.  You must recruit heavily (and
 expensively) to survive, and most of those units are going to die.
 Without this bottleneck, there would be far too much gold sloshing
 around in scenarios 11-19.
 
 Sometimes the opposite tactic is useful.  The first really large fight
-in THoT is scenario 5, Invaders.  After several playthroughs I noticed
-that playing from campaign start to the end of scenario 4 (Troll
-Bridge) seemed to involve about the right level of challenge, but that
+in THoT is scenario 5, _Invaders_.  After several playthroughs I noticed
+that playing from campaign start to the end of scenario 4 (_Troll
+Bridge_) seemed to involve about the right level of challenge, but that
 retaining enough gold to make Invaders winnable seemed unreasonably
 difficult.  Rather than retune the earlier scenarios, I put a pile of
 treasure under the boss troll.
@@ -542,7 +558,7 @@ treasure under the boss troll.
 But the most reliable way to manage gold is to alternate hard and easy
 scenarios.  The easy ones generate gold, the hard ones eat it.
 
-10. Branching
+== Branching ==
 
 It's perfectly possible to write an interesting campaign with a linear
 plot and the final objectives always shown at the beginning of each
@@ -559,24 +575,24 @@ dispatch a player to one of two (or even more) alternative next
 scenarios.  Typically you do this through a menu choice presented on
 victory.
 
-In The South Guard, for example, A Choice In The Fog (scenario 5)
+In The South Guard, for example, _A Choice In The Fog_ (scenario 5)
 presents you with a choice of allying with either elves or human
 bandits against undead.  This starts you on one of two different
 plotlines that lead to different endings.  This is open branching.
 It's relatively simple.
 
 Heir to the Throne has a trickier structure.  There is a branch point
-after Bay of Pearls (scenario 4); you can continue by land (Muff
-Malal's Peninsula, scenario 5a) or by sea (Isle of the Damned, 5b).
-Winning either 5a and 5b takes you Siege of Elensefar, scenario 6.
+after Bay of Pearls (scenario 4); you can continue by land (_Muff
+Malal's Peninsula_, scenario 5a) or by sea (_Isle of the Damned_, 5b).
+Winning either 5a and 5b takes you to _Siege of Elensefar_, scenario 6.
 
 Later in the campaign there is a three-way branch point after the
-aptly named A Choice Must Be Made (18). You can fight orcs on the 
-Snow Plains (19a), or you can fight undead in the Swamp of Dread (19b);
-both these scenarios lead to Home of The North Elves (20a).  If you
-have mermen you can get a third option, Cliffs of Thoria (19c).  This
-takes you to Underground Channels (20b).  Both 20a and 20b direct
-you to Elven Council (21) on victory.
+aptly named _A Choice Must Be Made_ (18). You can fight orcs on the 
+Snow Plains (19a), or you can fight undead in _Swamp of Dread_ (19b);
+both these scenarios lead to _Home of The North Elves_ (20a).  If you
+have mermen you can get a third option, _Cliffs of Thoria_ (19c).  This
+takes you to _Underground Channels_ (20b).  Both 20a and 20b direct
+you to _Elven Council_ (21) on victory.
 
 These are closed branches.  They rejoin the main plot when they're
 done.  The big issue with closed branches is that the branch paths
@@ -585,31 +601,32 @@ a feast-or-famine instability later in the campaign because players
 can come to the merge point with widely varying amounts of gold.
 
 The Rise of Wesnoth has yet another, unique, kind of branch structure
-which illustrates how you can get really creative.  After Elf Lords
-(16) there are 4 challenge scenarios: The Dragon, A Beach, Troll Hole,
-and Cursed Isle.  You must do all 4, but you get to choose the order
-you do them in.  You loop back to Elf Lords after each victory; only
-completing all four lets you continue to A Spy In The Woods (18).
+which illustrates how you can get really creative.  After _Elf
+Lords_ (16) there are 4 challenge scenarios: _The Dragon_, _A
+Beach_, _Troll Hole_, and _Cursed Isle_.  You must do all 4, but you
+get to choose the order you do them in.  You loop back to _Elf Lords_
+after each victory; only completing all four lets you continue to A
+_Spy In The Woods_ (18).
 
 It would probably be unwise to try to write a branch into your first
-campaign.  The Hammer of Thursagan, which is my first all-original
+campaign.  _The Hammer of Thursagan_, which is my first all-original
 campaign (after about half a dozen adaptations for mainline), has 
 no branches.  But once you become experienced enough, branching can
 greatly increase your design options and the repeated play value 
 of a campaign.
 
-11. Shifting Objectives
+== Shifting Objectives ==
 
 An even tricker technique than branching is changing a scenario's
 objectives partway through it.  Handle this one with extreme care,
 because objective changes have a bad tendency to turn into tomato
-surprises (earlier we called out an example of this in Under The
-Burning Suns).
+surprises (earlier we called out an example of this in _Under The
+Burning Suns_).
 
 Never change objectives in such a way that the player can't possibly
 meet them without pre-planning for the new ones.  As an obvious
-example, changing a scenario's objective to from "defeat all ememies"
-to "move your hero to the signpost" is quite likely to be horribly
+example, changing a scenario's objective to from ``defeat all ememies''
+to ``move your hero to the signpost'' is quite likely to be horribly
 frustrating to the player -- the hero might be fighting all the way on
 the other side of the map.  
 
@@ -622,3 +639,9 @@ either (1) not be too difficult change strategically (perhaps as well
 as an extra difficulty, the player also gets assistance from
 somewhere), or (2) the potential for the change should be strongly
 hinted at to give an observant player the opportunity to plan.
+
+== Fun, not Frustration ==
+
+When in doubt, remember what your goal as a scenario and campaign designer
+is: to give your players pleasure and a sense of acciomplishment.  Aim
+for fun, not frustration.
