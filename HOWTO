@@ -3,17 +3,21 @@ Eric S. Raymond <esr@thyrsus.com>
 v1.0, November 2007
 
 This is a HOWTO on writing campaigns that I'm developing by writing
-The Hammer Of Thursagan.  Though THoT is my first all-original
-campaign, this draws on my experience co-authoring one (Northern
-Rebirth), editing five other campaigns for mainline (An Orcish
-Incursion, Liberty, Descent Into Darkness, The Scepter Of Fire, Son Of
-The Black Eye), and co-maintaining a sixth (The South Guard).
+_The Hammer Of Thursagan_.  Though _THoT_ is my first all-original
+campaign, this draws on my experience co-authoring one (_Northern
+Rebirth_), editing five other campaigns for mainline (_An Orcish
+Incursion_, _Liberty_, _Descent Into Darkness_, _The Scepter Of Fire_,
+_Son Of The Black Eye_), and co-maintaining a sixth (_The South
+Guard_).
 
-== Storyboarding ==
+== Storyline comes first ==
 
-First, *write your storyline*.  Battles may be the center of BfW, but 
-writing an interesting storyline and designing battles to fit works better
-than designing battles and then wrapping a story around them.  
+First, *write your storyline*.  Battles may be the center of _Battle
+For Wesnoth_, but writing an interesting storyline and designing
+battles to fit works better than designing battles and then wrapping a
+story around them.
+
+=== Storyboarding ===
 
 So, start by writing a storyboard of your campaign.  The storyboard should
 contain a section for each scenario, beginning with its title and continuing
@@ -22,11 +26,11 @@ description of the map and the kind of battle you want to have.  It should
 describe any special events in the scenario, how they may fire, and what the
 effects are.
 
-Here is an example of a storyboard section from The Hammer Of Thursagan.
-Most storyboards section are shorter than this; I chose an complex one 
+Here is an example of a storyboard section from _The Hammer Of Thursagan_.
+Most storyboards section are shorter than this; I chose a complex one 
 to give an idea of the range of things you may want to do in a storyboard.
 
-----------------------------------------------------------------------------
+*************************************************************************
 Scenario 6: High Pass
 
 Angarthing: Behold, the High Pass.  By the old maps, we are halfway to
@@ -91,18 +95,18 @@ would be death.
 On time out:
 
 Aiglondur: We're snowed in.  Our mission has failed, even if we live.
-----------------------------------------------------------------------------
+*************************************************************************
 
-The WML for THoT::High Pass doesn't exactly match this; I added ogres and 
+The WML for _THoT::High Pass_ doesn't exactly match this; I added ogres and 
 woses as possible enemies, and some of the dialogue has changed a little.
 Your storyboard should be a support, not a straightjacket; its function 
 is to help you focus on storyline composition without being distracted
 by WML and implementation details.
 
 You don't even necessarily have to write out every single line of
-dialog in your storyboard drafts.  I like to do that, but ``The
-captain and the mage discuss how difficult the upcoming battle will
-be'' is probably good enough for a first pass.
+dialog in your storyboard drafts.  I like to do that, but a
+placeholder like ``The captain and the mage discuss how difficult the
+upcoming battle will be'' is probably good enough for a first pass.
 
 One last note about storyboarding: pick a reasonable campaign length
 (count of scenarios) and stick with it.  We've found by experience
@@ -118,11 +122,11 @@ a sweet spot (a point, by the way, on which the original designer of
 Wesnoth says he strongly agrees).  You should choose yours just as
 carefully.
 
-== Tips for good storyline writing ==
+=== Tips for good storyline writing ===
 
 A good storyline is not just a series of incidents hanging in the
 void.  A good storyline has continuity within itself and connections
-to the rest of the world of Battle For Wesnoth.
+to the rest of the world of _Battle For Wesnoth_.
 
 Use place names. ``Behold, the High Pass...we are halfway to Kal Kartha.''
 You create a sense with these that the story is *situated*; the 
@@ -131,45 +135,45 @@ into their world of meanings.  It's even better when you can use a place
 name on the main Wesnoth map; this ties the campaign to the known world.
 
 Use calendar references that situate the campaign in the Wesnoth timeline.  
-The intro for the first scenario of THoT ends like this:
+The intro for the first scenario of _THoT_ ends like this:
 
-------------------------------------------------------------------------
+*************************************************************************
 But the threat from hostile orcs, wild men, and remnant undead was not
 yet ended.  The dwarves kept strong guards on the approaches to
 Knalga. In the year 550 after the founding of Wesnoth, the captain of
 the East Gate received a warning that a small band of rogue orcs
 had been sighted.
-------------------------------------------------------------------------
+*************************************************************************
 
 This is a story hook.  We know where it happens, we know when, and we've
 introduced our first character: the (not yet named) captain of the East
-Gate of Knalga.  The first speaking lines in the scenario are his.
+Gate of Knalga.  The first speaking lines in the scenario will be his.
 
 Use foreshadowing and back references to create continuity. In our
-storyboard for High Pass: ``There is a school of mages near the east
+storyboard for _High Pass_: ``There is a school of mages near the east
 end of the pass.''  This is a really simple form of foreshadowing; the
 player is quite likely to think ``School of mages?  Cool! I hope I get
-to see it in next scenario.''  You've given the player something to
-anticipate -- and when he *does* actually see that school in Mages And
-Drakes (scenario 7), you'll have created a continuity, a bit of thread
-that ties High Pass together with Mages And Drakes.
+to see it in next scenario.''  We give the player something to
+anticipate -- and when he *does* actually see that school in _Mages And
+Drakes_ (scenario 7), we've created a continuity, a bit of thread that
+ties _High Pass_ together with _Mages And Drakes_.
 
 ``Something frightened those orcs enough to make them push west into
 Alliance territory'' -- that's a back reference to the action of
 scenario 5, _Invaders_.  By writing this, we give that scenario a
 meaning it didn't have before; we tie it to the present of the
-characters in High Pass.  This is another kind of continuity, making
+characters in _High Pass_.  This is another kind of continuity, making
 the story stronger.
 
 Develop characters. Look at this again:
 
-----------------------------------------------------------------------
+*************************************************************************
 Ratheln: In case you haven't noticed, there is a serious shortage of
 both firewood and food in this gods-forsaken slot.  And the damned
 gryphons descend on me whenever I stir out of this shack.  I've
 had nothing to eat but flash-roasted gryphon for the last three
 weeks.
-----------------------------------------------------------------------
+*************************************************************************
 
 We get a good sense of what Ratheln is like from this -- gruff, sarcastic, 
 and the kind of tough that will tear into a gryphon carcass with his 
@@ -179,15 +183,15 @@ remember this bit; the whole campaign just got a little more interesting.
 Don't go overboard with character development. A lot of writers have
 been taught to believe that stories stand or fall on the quality of
 their characterization.  This ain't necessarily so even in general,
-and in the very tight constraints of Battle For Wesnoth storylines,
-it can lead you into overwriting.
+and in the very tight constraints of _Battle For Wesnoth_ storylines,
+it can all too easily lead you into overwriting.
 
-Even a hundred words of dialogue is pretty talky in a BfW scenario, and
-you have to budget a lot of that for plot.  You can't afford to spend
-lots of verbiage on characterization, which means every bit you do
-has to count.
+Even a hundred words of dialogue is pretty talky in a Battle For
+Wesnoth scenario, and you have to budget a lot of that for plot.  You
+can't afford to spend lots of verbiage on characterization, which
+means every bit you do has to count.
 
-== Flow, climax, and story arcs ==
+=== Flow, climax, and story arcs ===
 
 The basic trajectory of a Wesnoth campaign should work like the basic
 trajectory of any story -- a building-up of tension, followed by a
@@ -209,7 +213,7 @@ sub-stories build up tension for the final resolution.  Each such arc
 should finish we the achievement of some kind of marked goal, and give
 the player a sense of relaxation and accomplishment.
 
-For example, in The Rise of Wesnoth (a *very* well-written campaign
+For example, in _The Rise of Wesnoth_ (a *very* well-written campaign
 that repays careful study) there are three story arcs.  One finishes
 with Haldric's departure from the Green Isle, the second finishes when
 Haldric sits down to negotiate with the elves of the Great Continent,
@@ -228,7 +232,7 @@ Also, note which scenarios are intended to be easy and which hard.
 That way you'll notice when you have two hard or two easy scenarios
 adjacent and get a good clue about something that might need fixing.
 
-== Writing with flavor ==
+=== Writing with flavor ===
 
 Now I'm going to talk about prose and style.  I'm aware that unless you're
 already a fairly good writer, the advice I'm about to give will be
@@ -236,13 +240,14 @@ about the most difficult part of this how-to to apply.  But even
 if you don't consider yourself a good writer, read it and let it
 sink in; you may well surprise yourself later.
 
-BfW is a fantasy game.  Your storyline will work best (be most
-accessible to the player, have the most interesting atmosphere) if
-your player finds your prose similar to the experience of reading a
-well-written modern fantasy novel of the epic type -- that is, not 
-urban fantasy or horror, but part of the high-fantasy tradition largely
-derived from J.R.R. Tolkien and a few other lesser-known writers
-(James Branch Cabell, Lord Dunsany, E.R. Eddison, etc.).
+_Battle For Wesnoth_ is a fantasy game.  Your storyline will work best
+(be most accessible to the player, have the most interesting
+atmosphere) if your player finds your prose similar to the experience
+of reading a well-written modern fantasy novel of the epic or
+high-fantasy type -- that is, not urban fantasy or horror, but part of
+the high-fantasy tradition largely derived from J.R.R. Tolkien and a
+few other lesser-known writers (James Branch Cabell, Lord Dunsany,
+E.R. Eddison, etc.).
 
 Therefore, you need to know about the conventions for how high-fantasy
 prose should sound.  If you are an *extremely* good writer (like, say,
@@ -250,7 +255,7 @@ the author of _The Rise of Wesnoth_), you can play directly against
 these conventions.  Very few people are that good; the rest of us
 (including me) are better off following them as carefully as we can.
 
-First rule: Crib shamelessly. Remember that when writing for Wesnoth,
+*First rule: Crib shamelessly.* Remember that when writing for Wesnoth,
 you are not trying for a literature prize.  Lifting ideas and imagery
 from Tolkien and other great fantasy authors is just fine, usually
 much more appropriate than trying to pull the player into a private
@@ -259,7 +264,7 @@ artistic world of your own.
 Here's an example.  I wrote the description of Mal-Ravanal's death 
 at the beginning of the Epilogue to _Eastern Invasion_.  Here it is:
 
--------------------------------------------------------------------------
+*************************************************************************
 As the lich's death-scream echoed in the air, a vast and louring
 column of shadow arose from his corpse like smoke from an unclean
 fire; then it divided fivefold at its height, reaching for the
@@ -270,42 +275,44 @@ terror as that great dark pall obscured the sun...and then it
 thinned, and paled, and a breeze from the west dissolved it in
 tatters, and the light of day shone once again undiminished on
 Weldyn.
--------------------------------------------------------------------------
+*************************************************************************
 
 I lifted the central image quite consciously from J.R.R. Tolkien's
 description of the passing of Sauron in The Return of the King:
 
--------------------------------------------------------------------------
-...black against the pall of cloud, there rose a huge shape of shadow,
+*************************************************************************
+
+[...] black against the pall of cloud, there rose a huge shape of shadow,
 impenetrable, lightning-crowned, filling all the sky.  Enormous it
 reared above the world, and stretched out towards them a vast
 threatening hand, terrible but impotent; for even as it leaned over
 them, a great wind took it, and it was all blown away, and passed; and
 then a hush fell.
--------------------------------------------------------------------------
+
+*************************************************************************
 
 Remember, some cliches are cliches because they *work*.  Go and do
 likewise whenever appropriate.  Don't lift word-for-word, though;
 that can lead to copyright problems.
 
-Second rule: Fantasy characters don't use modern slang or speech
-rhythm.  You should write in careful, formal English.  If it's
+*Second rule: Fantasy characters don't use modern slang or speech
+rhythm.*  You should write in careful, formal English.  If it's
 possible for you, imitate the longer sentences and more rounded,
 relaxed rhythms of late-19th and early 20th-century English as written
 by an Oxford don (this was Tolkien's dialect).
 
-Third rule: Use archaic and poetic forms -- carefully.  For example,
+*Third rule: Use archaic and poetic forms -- carefully.*  For example,
 ``I fear that...''  is better than ``I'm afraid that...''  I have Ratheln
 saying ``Hail'' rather than ``Hello'' for a reason; it creates a sense of
 some strangeness appropriate for a fantasy milieu.  
 
 Sparing use of poetic and dialect words is good.  For example, in
-one of THoT's scenarios there's a line like this:
+one of the _THoT_ scenarios there's a line like this:
 
--------------------------------------------------------------------------
+*************************************************************************
 Scout: Nae sign o' bandits I can see, captain -- but there are three 
 muckle hosts of orcs off to our east.
--------------------------------------------------------------------------
+*************************************************************************
 
 Many of your readers won't know that ``muckle'' is a Scots-dialect (and
 archaic English) word meaning ``a large amount'' or ``great''.  But a few
@@ -323,8 +330,9 @@ That last example sentence illustrates a related tool: Yon dwarf has
 an accent.  In this case, specifically, a Scots one.  I've made a
 point of giving some of the dwarves in the campaigns I write or adapt
 that accent.  The degree varies: Lord Hamel (in Northern Rebirth and
-THoT) has a heavy accent, Aiglondur a light-to-nonexistent one.  But 
-it differentiates them from humans in a useful and interesting way.
+_The Hammer of Thursagan_) has a heavy accent, Aiglondur a
+light-to-nonexistent one.  But it differentiates them from humans in a
+useful and interesting way.
 
 (For non-English speakers: In English-language folklore, the Scottish
 share many characteristics with fantasy dwarves.  Both are tough,
@@ -337,14 +345,12 @@ least, distinguishable speech patterns.  Elves should sound flowery
 and hyper-correct, dwarves should sound dour and tough, orcs should
 sound brutal and angry, trolls and ogres should sound stupid.
 
-Fourth rule: Change register appropriately.
-
-All the tricks I've been talking about (cribbing from authors, formal
-English, poetic and dialect words, accents) become more appropriate
-and more important in climax scenes than they are in ordinary
-narration.  At times of great intensity, shift your prose a bit away
-from colloquial modern English -- make it more formal, more
-fantasy-tinged, more *powerful*.
+*Fourth rule: Change register appropriately.* All the tricks I've been
+talking about (cribbing from authors, formal English, poetic and
+dialect words, accents) become more appropriate and more important in
+climax scenes than they are in ordinary narration.  At times of great
+intensity, shift your prose a bit away from colloquial modern English
+-- make it more formal, more fantasy-tinged, more *powerful*.
 
 == Making interesting maps ==
 
@@ -352,7 +358,7 @@ The most useful thing you can know about designing maps is that it
 seems to be actively difficult to design a map that both has visually
 interesting terrain and produces a boring battle.  The AIs are quite
 senstive to movement costs; thus, they tend to seize on even small
-irregularities in your map and turn them into relatively dramatic
+irregularities in your map and amplify them into relatively dramatic
 effects on how AI-controlled units move and attack.
 
 Therefore, when you're designing a first-draft map you can generally
@@ -383,7 +389,7 @@ fractal noise for pleasure, and call it ``music''.
 So, learn how to doodle fractal noise in the map editor and you'll have
 the trick of making maps that are interesting.  That will translate
 fairly directly into interesting battles.  I find that it helps to 
-doodle quickly and roughly and turn your mouse errors into seeds 
+scribble quickly and roughly and turn your mouse errors into seeds 
 for more fractal irregularities.
 
 == Army balancing ==
@@ -396,12 +402,12 @@ mobility and skirmisher ability) will have disadvantages in another
 direction (Saurians have relativity low hit points, so they die
 quickly in a standup fight at 1-1 odds).
 
-Therefore, the Equal-Cost-Equal-Power Rule (ECEPR): you can balance
+Therefore, the *Equal-Cost-Equal-Power Rule (ECEPR)*: you can balance
 armies fairly effectively by giving them the same amount of gold to
 recruit with.  The Wesnoth maintainers tune units and factions with
 the main goal of ensuring that ECEPR stays true.
 
-There are a couple of caveats to this.  First caveat: some
+There are some important caveats to this.  *First caveat*: some
 combinations of factions are more ``unstable'' than others -- that is,
 while the expected outcome of 1000 fights between equal-cost armies
 from factions A and B is about a 50% split no matter which factions A
@@ -413,22 +419,22 @@ the orcs have assassins, in which case the variance goes up (poison is
 destabilizing in general).  Mages vs. undead is unstable; in general,
 pure archers vs. pure infantry is unstable.
 
-Second caveat, related: to get that 50/50 split it has to be the case
-that each side is using the right countertactics against the other.
-Your chances running (say) an equal-cost army of dwarves againt
-saurians may be 50/50 in the large, but if you don't pull your dwarves
-into tight-packed groups to shield the wounded you're not going to get
-your standup fight at 1-1 odds; you'll find that saurian skirmisher
-ability will shift the odds dramatically against you.  High mobility
-is destabilizing in general.
+*Second caveat:* to get that 50/50 split it has to be the case that
+each side is using the right countertactics against the other.  Your
+chances running (say) an equal-cost army of dwarves againt saurians
+may be 50/50 in the large, but if you don't pull your dwarves into
+tight-packed groups to shield the wounded you're not going to get your
+standup fight at 1-1 odds; you'll find that saurian skirmisher ability
+will shift the odds dramatically against you.  High mobility is
+destabilizing in general.
 
-Third caveat: Fortifications.  Units in castles or on terrain that
+*Third caveat:* Fortifications.  Units in castles or on terrain that
 favors their defense collect an advantage.  An assault on a fortified
 position will require more gold to the attacking side to make it even.
 There's no real rule of thumb here: you have to balance-test and watch
 what happens.
 
-Fourth caveat: ECEP doesn't count player veterans in campaigns.
+*Fourth caveat:* ECEP doesn't count player veterans in campaigns.
 Player veterans have a fixed cost of 20 each, which is less -- often a
 *lot* less -- than the unit cost if you had to buy it direct (assuming
 you were able to).  An Archmage, for example, costs 59 gold and has
@@ -443,7 +449,7 @@ AI side's starting gold.
 
 To tilt a fight against one side, change the armies' starting gold.
 The unit to think about when you do this is a recruit-equivalent.  A
-recruit-equivalent (RE) is the amount of gold required for each army
+*recruit-equivalent (RE)* is the amount of gold required for each army
 to recruit an average L1 unit of its faction.  So, for example,
 dwarves have a L1 Fighter costing 16 gold and a L1 Thunderer costing
 17 gold; a dwarven RE is thus 16.5.  Think in multiples of a side's
@@ -454,7 +460,7 @@ RE when changing its gold level.
 How hard is too hard?  Remember that as a campaign designer, your job
 is to produce fun, not frustration.  
 
-Hence, the First-Time-Possible Rule (FTPR): It should be possible for a
+Hence, the *First-Time-Possible Rule (FTPR)*: It should be possible for a
 skilled enough Wesnoth player to win each scenario without any
 restarts first time he/she plays it, provided he/she doesn't make any
 actual mistakes and is not seriously unlucky.
@@ -463,11 +469,11 @@ Because your player accumulates veterans, first-time-win without
 restarts can still be just possible in a campaign's late scenarios
 even though they involve much nastier opponents than earlier on.
 
-We have a distinction between Beginner, Intermediate, and Advanced
+We have a distinction between Beginner, Intermediate, and Expert
 campaigns; this is what defines ``skilled enough''.  At Beginner level,
 ``skilled enough'' means little more than ``able to able to move and
 fight units in rough groups and rotate your wounded out of the
-way''. At Advanced level, ``skilled enough'' implies tactical expertise
+way''. At Expert level, ``skilled enough'' implies tactical expertise
 -- the ability to organize a flanking assault, ZOC-pin enemy units
 with mobile troops, manage a fighting retreat, etc.  Intermediate is
 in between.
@@ -484,7 +490,9 @@ veterans the player will typically have going into each scenario, and
 then tune the enemy gold so the player can just about beat it reliably
 at Normal level *with those veterans*.
 
-== Traps to Avoid ==
+== Traps to avoid ==
+
+=== Landmines ===
 
 One major main thing to avoid in designing scenarios is landmines --
 random or unforeseeable events that make it impossible to win even if
@@ -498,6 +506,8 @@ to avoid them, or mitigate their effects, if you're playing smart.
 Remember, your goal is to challenge and stimulate the player, not
 randomly frustrate him/her.
 
+=== Tomato Surprises ===
+
 Another thing not to do is the ``tomato surprise'' -- an unavoidable
 event that, once you know about it after the first playthrough,
 completely changes the way you will play the scenario (even how you
@@ -507,6 +517,8 @@ The Under The Burning Suns scenario _A Stirring in the Night_ has a
 tomato surprise when the player-side hero Garak turns undead and the
 objective shifts to defeating him; this is a significant flaw in an
 otherwise interesting and well-written campaign.
+
+=== Relying on AI Allies ===
 
 Beware of giving your player an AI ally as a balancing tactic.  It's
 quite hard to set up a battle in which the AI ally is reliably
@@ -520,6 +532,33 @@ player actual control of it.  Northern Rebirth uses this technique in
 a couple of scenarios, including the big final one (Showdown, scenario
 13). The player gets to run both the human and drake sides, with elves
 and dwarves as AI allies.
+
+=== Races Against Time ===
+
+When regulating the difficulty of a scenario you have three main knobs
+you can turn: the starting gold, the recruitment lists, and the turn
+limit.  When you want to turn the difficulty up, increasing enemy gold
+is probably the first thing you should think of and shortening the
+turn limit the last.
+
+Why?  Because few things are more frustrating than to have the last enemy 
+boss cornered, beat his hitpoints down into the red zone...and then, just
+as your valiant warriers are about to deal the death stroke, lose because
+you ran out of time.  Players hate this, and with reason.  You shouldn't
+do it to them.
+
+Tight time limits occasionally have their uses.  One is in ``get your
+hero to the signpost'' scenarios, like the first one in _Heir To The
+Throne_ annd _THoT::High Pass_.  Another is the inverse; scenarios
+where you have to hold out against enemies until the bell tolls, like
+the first scenario of _Eastern Invasion_.  In both those situations
+you can use the time limit to build dramatic tension, and it seems
+natural in those contexts.
+
+But for straight battle scenarios, time limits are almost always the
+wrong way to control difficulty.  Think of them instead mainly as a
+way to control the amount of gold carried forward into the next
+scenario.
 
 == Larger-scale problems in campaign balancing ==
 
@@ -548,7 +587,7 @@ Without this bottleneck, there would be far too much gold sloshing
 around in scenarios 11-19.
 
 Sometimes the opposite tactic is useful.  The first really large fight
-in THoT is scenario 5, _Invaders_.  After several playthroughs I noticed
+in _THoT_ is scenario 5, _Invaders_.  After several playthroughs I noticed
 that playing from campaign start to the end of scenario 4 (_Troll
 Bridge_) seemed to involve about the right level of challenge, but that
 retaining enough gold to make Invaders winnable seemed unreasonably
@@ -558,7 +597,7 @@ treasure under the boss troll.
 But the most reliable way to manage gold is to alternate hard and easy
 scenarios.  The easy ones generate gold, the hard ones eat it.
 
-== Branching ==
+== Advanced techniques ==
 
 It's perfectly possible to write an interesting campaign with a linear
 plot and the final objectives always shown at the beginning of each
@@ -569,6 +608,8 @@ For the more ambitious, there are a couple of techniques you can use
 to create more possible ways to play through the campaign and set up
 interesting surprises.  But these techniques have to be handled with
 care.
+
+=== Branching ===
 
 One technique is branching.  It's possible to set up logic that will
 dispatch a player to one of two (or even more) alternative next
@@ -600,7 +641,7 @@ have to have about equal difficulty levels.  Otherwise, you'll create
 a feast-or-famine instability later in the campaign because players
 can come to the merge point with widely varying amounts of gold.
 
-The Rise of Wesnoth has yet another, unique, kind of branch structure
+_The Rise of Wesnoth_ has yet another, unique, kind of branch structure
 which illustrates how you can get really creative.  After _Elf
 Lords_ (16) there are 4 challenge scenarios: _The Dragon_, _A
 Beach_, _Troll Hole_, and _Cursed Isle_.  You must do all 4, but you
@@ -615,7 +656,7 @@ no branches.  But once you become experienced enough, branching can
 greatly increase your design options and the repeated play value 
 of a campaign.
 
-== Shifting Objectives ==
+=== Shifting Objectives ===
 
 An even tricker technique than branching is changing a scenario's
 objectives partway through it.  Handle this one with extreme care,
