@@ -22,7 +22,7 @@ out for contact with their scattered kinfolk.
 But the threat from renegade orcs, wild men, and remnant undead was
 not yet ended.  The dwarves kept strong guards on the approaches to
 Knalga. In the year 550 after the founding of Wesnoth, the captain of
-the eastern gate received a warning that a small band of rogue orcs
+the East Gate received a warning that a small band of rogue orcs
 had been sighted.
 
 Aiglondur: Up axes!  We will be the Northern Alliance's arm today,
@@ -223,7 +223,7 @@ the mountains will soon grow dangerous.
 
 Scenario 3:  Strange Allies
 
-Narrator: Angarthing and Aiglondur and their men traveled swiftly to the east
+Story: Angarthing and Aiglondur and their men traveled swiftly to the east
 through the settled lands of the Northern Alliance.  Soon enough
 they came to the wilder march country, where raids by large bands
 of hostile orcs and men were all too common.
@@ -266,7 +266,7 @@ human chaotics.
 
 Scenario 4: Troll Bridge
 
-Narrator: Aiglondur and his men, some still shaking their heads dubiously 
+Story: Aiglondur and his men, some still shaking their heads dubiously 
 at very the notion of fighting alongside orcs rather than against them,
 continued east to the very edge of the Alliance's lands.
 
@@ -322,7 +322,7 @@ We should try to get creative with representing the effects of extreme
 cold, perhaps something like the dehydration effect in UtBS.  And the
 time-limit should be tight.
 
-There should be a village near the midpoint of the pass.  When the payers 
+There should be a village near the midpoint of the pass.  When the players 
 occupy it, a Red Mage named Ratheln will appear.
 
 Ratheln: Hail, I am Ratheln.  If you're traveling down the pass,
