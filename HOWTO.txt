@@ -27,7 +27,7 @@ describe any special events in the scenario, how they may fire, and what the
 effects are.
 
 Here is an example of a storyboard section from _The Hammer Of Thursagan_.
-Most storyboards section are shorter than this; I chose a complex one 
+Most storyboard sections are shorter than this; I chose a complex one 
 to give an idea of the range of things you may want to do in a storyboard.
 
 *************************************************************************
