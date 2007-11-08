@@ -9,16 +9,16 @@
 	the following symptom: "error engine: Cannot create unit:
 	location is not on map, and player 5 has no recall list."
 
-0.5: Add changelog (good suggestion by turska)
+0.5:
+	* Add changelog (good suggestion by turska)
+	* Fixed recall of Aiglondur to work right if he leveled up.
+	* Minor textual changes suggested by Turin Turambar.
 
 Known bugs:
 	* Villages should not pop up bandits when they're captured
 	while held by the dwarves or orcs.  Recapture by the bandits
 	should enable the village to spout bandits.  Right now this
 	doesn't work right.
-
-	* Aiglondur is a Fighter in Reclaiming The Past even if
-	you leveled him to a Steelclad on the last level.
 
 	* Invaders (scenario 5) is probably too easy. Just staying 
 	out of the way while the orcs and bandits slaughter each other
