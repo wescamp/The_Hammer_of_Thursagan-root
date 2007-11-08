@@ -55,9 +55,14 @@ relink)
    echo "Relinking THoT to data directory";
    $do ln -s $wescamp ~/svn/wesnoth/$thotpath;
    ;;
-delink):
+delink)
    echo "Delinking THoT from data directory";
    $do rm ~/svn/wesnoth/$thotpath;
+   ;;
+nuke)
+   echo -n "Password: "
+   read password
+   $do $client -r The_Hammer_of_Thursagan -P "$password";
    ;;
 *)
     echo "ThoT $uthot in user directory."
