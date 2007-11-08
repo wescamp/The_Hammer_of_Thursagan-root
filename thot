@@ -1,0 +1,69 @@
+#!/bin/bash 
+#
+# thot -- manager script for thot development.
+#
+do=""
+if [ "$1" = "-n" ]
+then
+	shift
+	do=echo
+fi
+
+wescamp=~/svn/wescamp-i18n/The_Hammer_of_Thursagan
+thotpath=data/campaigns/The_Hammer_Of_Thursagan
+client=~/svn/wesnoth/utils/campaigns_client.py
+
+case $1 in
+upload)
+   echo "Uploading THoT to campaign server";
+   $do $client -p 1.3.x -c ~/svn/wescamp-i18n -u $wescamp/_server.pbl ;
+   ;;
+remove)
+   case $uthot in
+   linked)
+       echo "Unlinking THoT from user directory";
+       $do rm ~/.wesnoth/$thotpath;;
+   copied)
+       echo "Removing THoT from user directory";
+       $do rm -fr ~/.wesnoth/$thotpath;;
+   *)
+       echo "ThoT not installed in user directory."
+   esac
+   ;;
+relink)
+   thot remove
+   echo "Relinking THoT to data directory";
+   $do ln -s $wescamp ~/svn/wesnoth/$thotpath;
+   ;;
+delink):
+   echo "Delinking THoT from data directory";
+   $do rm ~/svn/wesnoth/$thotpath;
+   ;;
+*)
+    if [ -L ~/svn/wesnoth/$thotpath ]
+    then
+	    echo "ThoT linked in data directory."
+	    dthot=linked
+    elif [ -d ~/svn/wesnoth/$thotpath ]
+    then
+	    echo "ThoT installed in data directory."
+	    uthot=copied
+    else
+	    echo "ThoT not installed in data directory."
+	    dthot=no
+    fi
+
+    if [ -L ~/.wesnoth/$thotpath ]
+    then
+	    echo "ThoT linked in user directory."
+	    uthot=linked
+    elif [ -d ~/.wesnoth/$thotpath ]
+    then
+	    echo "ThoT installed in user directory."
+	    uthot=copied
+    else
+	    echo "ThoT not installed in user directory."
+	    uthot=no
+    fi
+    ;;
+esac
