@@ -143,7 +143,7 @@ Dwarvish Loremaster:
     No special resistances.
 ------------------------------------------------------------------------
 
-Angarthing: The mark on this cloak-pin is that of our kin at Kal Kartha 
+*Angarthing:* The mark on this cloak-pin is that of our kin at Kal Kartha 
 in the eastern hills, from whom we've heard nothing since Tallin
 broke the orcish tyranny.  It troubles us that an orc should have come to
 possess it; no orc should even have learned that the order of loremasters
@@ -157,7 +157,7 @@ recovered it from the Caverns of Flame, centuries ago.
 
 *Aiglondur:* The Hammer of Thursagan?
 
-Angarthing: Aye.  The very tool with which our greatest runesmith made
+*Angarthing:* Aye.  The very tool with which our greatest runesmith made
 the Scepter of Fire.  But it is old, far older than Thursagan; he was
 but the last to wield it, and our oldest histories hint that this very
 hammer was used to forge the dwarves themselves in the heart of the
@@ -199,7 +199,7 @@ Hammer to hand, we could train and initiate runesmiths once more.
 Kartha and the book here, the question of which holding shall have the
 training of the new runesmiths in its hands would be...delicate.
 
-Angarthing; We feared stirring up a controversy before the book
+*Angarthing:* We feared stirring up a controversy before the book
 was even properly understood.
 
 *Hamel:* I'll grant that was well thought, even if I am nae entirely
@@ -323,10 +323,10 @@ would be no laughing matter.
 
 The map should be a twisty, narrow path through rugged snow-capped
 mountains.  The objective will be to get Aiglondur through to the
-other side.  The opponents will be gryphons, wolves, and the elements.
-We should try to get creative with representing the effects of extreme
-cold, perhaps something like the dehydration effect in UtBS.  And the
-time-limit should be tight.
+other side.  The opponents will be gryphons, wolves, trolls, ogres,
+and the elements.  We should try to get creative with representing the
+effects of extreme cold, perhaps something like the dehydration effect
+in UtBS.  And the time-limit should be tight.
 
 There should be a village near the midpoint of the pass.  When the players 
 occupy it, a Red Mage named Ratheln will appear.
@@ -357,7 +357,7 @@ least rumors.
 *Aiglondur:* Aye.  And I'd not leave anyone who had done my kin no harm
 stranded to starve.
 
-*On victory:*
+On victory:
 
 *Aiglondur:* We're through the pass!
 
@@ -368,12 +368,12 @@ wonder what it was?
 *Aiglondur:* Aye.  But I've a grim feeling we might be going to 
 discover that in person.
 
-*On halfway through the turns:*
+On halfway through the turns:
 
 *Aiglondur:* It has begun to snow.  Move, everyone!  To be trapped here 
 would be death.
 
-*On time out:*
+On time out:
 
 *Aiglondur:* We're snowed in.  Our mission has failed, even if we live.
 
@@ -407,7 +407,7 @@ travelers of late.
 
 *Glashal:* The axe-bearers must not be let near our nestlings.  Attack!
 
-*If Perrin is alive at time of victory, this happens:*
+If Perrin is alive at time of victory, this happens:
 
 *Perrin:* We're grateful for your assistance.  And I'd like to send
 at least one of our senior apprentices with you to the east.  It has come
@@ -421,7 +421,7 @@ its traces in the currents of the earth and air.
 
 *Aiglondur:* We have had other hints of this.  But we must press on.
 
-*At easy level:*
+At easy level:
 
 *Ratheln:* Perrin, I think it is my duty to go with them.  I'll return 
 with your apprentices as soon as I may.
@@ -482,7 +482,7 @@ On Ollin's first combat, he should say this...
 
 *Ollin:* Take that for my family's memory, you murderer!
 
-*On victory:* 
+On victory:
 
 *Aiglondur:*  They are defeated.
 
@@ -678,7 +678,7 @@ Every few turns (interval depending on the scenario length) there should
 be a crunching sound, a death cry, and a popup from Karrag announcing
 that the Hammer has smashed the skull of another dirtgrubber.
 
-*On victory:*
+On victory:
 
 *Karrag:* No!  No!  Dirtgrubbers must die!  The true people must rule all!
 
