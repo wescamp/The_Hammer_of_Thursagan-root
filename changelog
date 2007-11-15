@@ -19,3 +19,7 @@
 	* Fixes for all known WML bugs, notably the bandit-popup logic
 	in Invaders (scenario 5). Props to zookeeper for the fixes.
 	* Invaders (scenario 5) rebalanced.
+
+
+0.7:
+	* Scenario 7, "Mages and Drakes", added.
