@@ -14,12 +14,8 @@
 	* Fixed recall of Aiglondur to work right if he leveled up.
 	* Minor textual changes suggested by Turin Turambar.
 
-Known bugs:
-	* Villages should not pop up bandits when they're captured
-	while held by the dwarves or orcs.  Recapture by the bandits
-	should enable the village to spout bandits.  Right now this
-	doesn't work right.
 
-	* Invaders (scenario 5) is probably too easy. Just staying 
-	out of the way while the orcs and bandits slaughter each other
-	seems too effective a way to win it.
+0.6:
+	* Fixes for all known WML bugs, notably the bandit-popup logic
+	in Invaders (scenario 5). Props to zookeeper for the fixes.
+	* Invaders (scenario 5) rebalanced.

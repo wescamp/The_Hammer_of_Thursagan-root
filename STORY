@@ -427,7 +427,7 @@ At easy level:
 with your apprentices as soon as I may.
 
 At easy level, the player gets Ratheln and two apprentices.
-At medium, two appentices.  At hard, one apprentice.  The
+At normal, two appentices.  At hard, one apprentice.  The
 apprentices are L1 mages advanced in their training, and start with
 half the XP they will need to advance to L2.
 
