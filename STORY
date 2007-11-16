@@ -548,7 +548,7 @@ player's gold before the final, plot-intensive scenarios.
 
 The West Gate should be occupied by a leader, Dulcatulos.
 The objective is to kill all enemies, but you also lose if
-*Dulcatulos dies.  The message should be:*
+Dulcatulos dies.  The message should be:
 
 *Aiglondur:* Kal Kartha is taken.  Our mission has failed.
 
