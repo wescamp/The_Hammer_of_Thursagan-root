@@ -10,8 +10,9 @@ direct sequel to _Northern Rebirth_.
 Note: this campaign adds substantial new material -- and, it is hoped,
 new depths -- to the portrayal of the dwarves.
 
-(At present time 6 of the 13 scenarios have been written. Some
-of the dialogue has changed a little in the WML.)
+(At present time 7 of the 13 scenarios have been written and there are
+maps for 4 more. Some of the dialogue has changed a little in the
+WML.)
 
 == Scenarios ==
 
@@ -44,8 +45,8 @@ small human and dwarvish farms.  Aiglondur and his guards should start
 from an underground keep on the west edge of the map, set into the east
 edge of impassable mountains and marked "East Gate".
 
-*Supporter:* What is this?  Their vanquished leader wears a cloak-pin
-of dwarvish make.  And it bears a loremaster's emblem.
+*Dwarven Supporter:* What is this?  Their vanquished leader wears a
+cloak-pin of dwarvish make.  And it bears a loremaster's emblem.
 
 *Aiglondur:* The maker's mark is strange to me.  We had best consult the
 lord Hamel.
@@ -388,8 +389,8 @@ Great Mage leader named Perrin who can recruit only mages.  Near the
 eastern edge will be a drake encampment with a Flameheart named Glashal
 as its leader.
 
-*Supporter:* Perrin!  A mage comes down from the High Pass, with a
-company of dwarves.  They are well-armed, but not in battle array.
+*Mage Supporter:* Perrin!  A mage comes down from the High Pass, with
+a company of dwarves.  They are well-armed, but not in battle array.
 
 *Perrin:* That will be Ratheln, I expect.  Hail!  You on the road!
 Who comes bearing arms into our valley?
@@ -731,7 +732,52 @@ him in the spring.  But it seems that I have some work to do here first.
 == Art Requirements ==
 
 We'll need images and animation frames for the Loremaster line.  We'll
-want portraits for the following characters: Aiglondur, Angarthing,
-the Masked Dwarf in _Fear_, Karrag, and Ratheln.
+want portraits for the following characters: 
 
+*Aiglondur:*  A dwarf, the guard captain of the Eastern Gate.  Young,
+intelligent, related to the clan chieftain.  Dwarven society doesn't
+have a noble class as such, but Aiglondur is from one of its leading
+families and will have war-gear of the best quality. If weapons are in 
+the portrait, his will be your standard Dwarvish double-bitted axe.
 
+*Hamel*: A dwarven chieftain in the last decades of a long, eventful, 
+and successful life -- one of the founding heroes of the Northern
+Alliance.  He is both wise and kind.  This portrait needs to be recognizably 
+the same character as the Hamel portrait in _Northern Rebirth_.
+
+*Angarthing:* A junior loremaster.  Young but self-conscious about
+being an authority figure; will dress to look older than his actual
+age.  Very intelligent and rigidly honorable.  Should be sagelike or
+priestly in appearance with an especially long beard.  If weapons are
+in the portrait, he uses a bolas and a chainmace -- neither of them
+heavy as he is not a line fighter (he will wear only partial or light
+armor).
+
+*The Masked Dwarf:* This is the leader of the masked dwarven marauders 
+in _Fear_.  He wears a face-concealing mask.  He is evil, but the
+portrait should merely suggest wrongness without belaboring the point.
+
+*Karrag*: An evil dwarf-lord who uses a mask ans spells of illusion 
+to conceal the fact that he has in fact become a lich.  The wrongness
+in this portrait should be much clearer.
+
+*Ratheln:* A human mage and teacher of magic.  A scholar but a very
+tough and experienced one -- not someone to cross lightly.  Good at
+heart but gruff and a bit irascible.
+
+*Master Perrin:* The master of a school of magic.  Wise and kindly.
+An Albus Dumbledore in Wesnoth, basically.
+
+The following portraits are optional but would be useful:
+
+*Dulcatulos:* The captain of Kal Kartha's guard at the West Gate, a
+good dwarf unknowingly working for an evil master.  Aiglondur's
+counterpart, but a few years older and not as intelligent.
+
+*Pelias*: A human knight who serves effectively as a royal
+courier, even if Tallin doesn't have the title of king.
+
+*Dwarven Supporter*: This will be an older dwarf, a clever and
+experienced scout.
+
+ 
