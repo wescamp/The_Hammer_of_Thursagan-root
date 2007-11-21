@@ -777,6 +777,8 @@ counterpart, but a few years older and not as intelligent.
 *Pelias*: A human knight who serves effectively as a royal
 courier, even if Tallin doesn't have the title of king.
 
+*Elurinde* An Elvish Rider of high rank.
+
 *Dwarven Supporter*: This will be an older dwarf, a clever and
 experienced scout.
 
