@@ -10,7 +10,7 @@ direct sequel to _Northern Rebirth_.
 Note: this campaign adds substantial new material -- and, it is hoped,
 new depths -- to the portrayal of the dwarves.
 
-(At present time 7 of the 13 scenarios have been written and there are
+(At present time 9 of the 13 scenarios have been written and there are
 maps for 4 more. Some of the dialogue has changed a little in the
 WML.)
 
@@ -509,26 +509,26 @@ Most of the map should be forest.  The road east peters out here.
 There should be one keep of woses and one or more camps of elves
 in the forest.
 
-The scenario should begin with an elvish scout, Elurinde, fake-moving
+The scenario should begin with an elvish scout, Elurin, fake-moving
 to within sight of the player encampment.
 
-*Elurinde:* Who disturbs our forest?
+*Elurin:* Who disturbs our forest?
 
 *Angarthing:* A delegation of the Northern Alliance, seeking the
 road through to Kal Kartha.
 
-*Elurinde:* We allow few outsiders in our forest paths, and no dwarves
+*Elurin:* We allow few outsiders in our forest paths, and no dwarves
 since the masked ones began to trouble our eastern margins.  No
 axe-bearers shall come near our trees.  Return whence you came!
 
 *Aiglondur:* No. We have our duty.  We must pass.
 
-*Elurinde:* You shall not pass here.
+*Elurin:* You shall not pass here.
 
 *Angarthing:* Winter comes on us, and your forest straddles the only
 gap in these mountains.  You leave us no choice but to fight you.
 
-*Elurinde:* So be it, then.  Yours will not be the first bones 
+*Elurin:* So be it, then.  Yours will not be the first bones 
 to nourish the earth of our forest.
 
 === Scenario 10: The Siege of Kal Kartha ===
@@ -777,7 +777,7 @@ counterpart, but a few years older and not as intelligent.
 *Pelias*: A human knight who serves effectively as a royal
 courier, even if Tallin doesn't have the title of king.
 
-*Elurinde* An Elvish Rider of high rank.
+*Elurin* An Elvish Rider of high rank.
 
 *Dwarven Supporter*: This will be an older dwarf, a clever and
 experienced scout.

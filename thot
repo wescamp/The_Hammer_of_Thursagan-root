@@ -64,6 +64,11 @@ nuke)
    read password
    $do $client -r The_Hammer_of_Thursagan -P "$password";
    ;;
+story)
+   asciidoc -a toc STORY;
+   mv STORY.html ~/WWW/wesnoth/thot.html
+   cd ~/WWW; upload wesnoth/thot.html
+   ;;
 *)
     echo "ThoT $uthot in user directory."
     echo "ThoT $dthot in data directory."
