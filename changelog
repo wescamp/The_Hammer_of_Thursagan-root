@@ -34,3 +34,9 @@
 
 0.10:
 	* New scenario #1 map backed out as it doesn't fit the storyline.
+
+0.11:
+	* In "Fear" (8), explicitly create the ulfserkers the AI woun't
+	recruit anymore. Also give all enemies the "Masked Dwarf" user
+	description.
+
