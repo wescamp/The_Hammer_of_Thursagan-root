@@ -26,4 +26,8 @@
 	* Scenario 8, "Fear", added.
 	* Scenario 9, "Forbidden Forest", added but not balance-checked.
 
+0.8:
+	* New scenario 1 map/WML and tuneup of scenario 3 map by Taurus.
 
+0.9:
+	* Rebalance scenario 1.
