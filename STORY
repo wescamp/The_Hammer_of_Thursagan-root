@@ -757,7 +757,7 @@ armor).
 in _Fear_.  He wears a face-concealing mask.  He is evil, but the
 portrait should merely suggest wrongness without belaboring the point.
 
-*Karrag*: An evil dwarf-lord who uses a mask ans spells of illusion 
+*Karrag*: An evil dwarf-lord who uses a mask and spells of illusion 
 to conceal the fact that he has in fact become a lich.  The wrongness
 in this portrait should be much clearer.
 

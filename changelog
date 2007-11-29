@@ -36,7 +36,9 @@
 	* New scenario #1 map backed out as it doesn't fit the storyline.
 
 0.11:
-	* In "Fear" (8), explicitly create the ulfserkers the AI woun't
+	* In "Fear" (8), explicitly create the ulfserkers the AI won't
 	recruit anymore. Also give all enemies the "Masked Dwarf" user
 	description.
 
+0.12:
+	* "Forbidden Forest" (#9) seems reasonably well balanced now.
