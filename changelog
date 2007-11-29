@@ -27,7 +27,7 @@
 	* Scenario 9, "Forbidden Forest", added but not balance-checked.
 
 0.8:
-	* New scenario 1 map/WML and tuneup of scenario 3 map by Taurus.
+	* New scenario #1 map/WML and tuneup of scenario #3 map by Taurus.
 
 0.9:
 	* Rebalance scenario 1.
@@ -42,4 +42,7 @@
 
 0.12:
 	* "Forbidden Forest" (#9) seems reasonably well balanced now.
+	* Added Staff of Righteous Flame in #10; I've tested that a mage 
+	can pick it up an a non-mage can't, but have not yet triggered the
+	final strike.
 	* First cut at "The Siege of Kal Kartha" (#10).
