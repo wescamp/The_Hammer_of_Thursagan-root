@@ -10,9 +10,9 @@ direct sequel to _Northern Rebirth_.
 Note: this campaign adds substantial new material -- and, it is hoped,
 new depths -- to the portrayal of the dwarves.
 
-(At present time 9 of the 13 scenarios have been written and there are
-maps for 4 more. Some of the dialogue has changed a little in the
-WML.)
+(At present time 12 of the 13 scenarios have been written; the only
+one undome is _The_Underlevels_. Some of the dialogue has changed a
+little in the WML.)
 
 == Scenarios ==
 
@@ -671,8 +671,8 @@ his foul spell.
 Dulcatulos becomes part of the player's side.  He is a hero;  he will
 be required for the Epilog.
 
-*This scenario should be a big, elaborate dungeon crawl in the style of NR:*:
-Clearing The Mines, with lots of undead enemies and a long turn limit.
+This scenario should be a big, elaborate dungeon crawl in the style of _NR:
+Clearing The Mines_, with lots of undead enemies and a long turn limit.
 Because Dulcatulos is with the player, the layout starts known but fogged.
 
 Every few turns (interval depending on the scenario length) there should
@@ -705,7 +705,7 @@ A lancer, named Pelias, fake-moves into the throne-room.
 *Pelias:* I was told I'd find Aiglondur of Knalga here.  I bear a
 message from Tallin, the Lord Protector of the Alliance.
 
-*Aiglondur:* I am he. Speak your meesage.
+*Aiglondur:* I am he. Speak your message.
 
 *Pelias:* I have been on your track for weeks.  Word of your rout of
 Tan-Malgar and his allies spread, and reached Tallin.  You did the
