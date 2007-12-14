@@ -1,3 +1,7 @@
+Historical note:  This campaign was begun 2007-10-11 on Wescamp.  ESR
+finished his first draft on 2007-12-04.  The campaigm moved from Wescamp
+to mainline on 2007-12-14.
+
 0.1:
 	* Initial release
 
@@ -56,3 +60,9 @@
 
 	Note: For this version you will need svn trunk at r22132 or
 	later.
+
+0.14:
+	* This version is being checked into mainline
+	* New victory dialogue in "Strange Allies" (#3)
+
+
